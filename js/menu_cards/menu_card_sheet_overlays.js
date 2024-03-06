@@ -3,13 +3,13 @@ var overlay_menu_subsection_content_u = "";
 var overlay_menu_subsection_content_r = "";
 var overlay_menu_subsection_content_cr = "";
 
-// for (var ii = 0; ii < layer_filter('SW', json_1171I_plan_boundaries)['features'].length; ii++) {
-//   overlay_menu_subsection_content_sw += popup_sheet_entry_creator('_twin_menu',
-//     layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.dwg_type,
-//     layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.dwg_no,
-//     layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.specifier,    
-//                                                                  ) + '<br>';
-// }
+for (var ii = 0; ii < layer_filter('SW', json_1171I_plan_boundaries)['features'].length; ii++) {
+  overlay_menu_subsection_content_sw += popup_sheet_entry_creator('_twin_menu',
+    layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.dwg_type,
+    layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.dwg_no,
+    layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.specifier,    
+                                                                 ) + '<br>';
+}
 
 for (var ii = 0; ii < layer_filter('U', json_1171I_plan_boundaries)['features'].length; ii++) {
   overlay_menu_subsection_content_u += popup_sheet_entry_creator('_twin_menu',

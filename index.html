@@ -58,8 +58,8 @@
     <script src="js/sewer_status_codes.js"></script> -->
     <script src="js/map_feature_styler.js"></script>
     
-    <!-- <script src="tcps/tcp_list.js"></script>
-    <script src="as_builts/as_built_list.js"></script> -->
+    <script src="tcps/tcp_list.js"></script>
+    <script src="as_builts/as_built_list.js"></script> 
 
     <script src="payments/misc_payment_arrays.js"></script>    
 <!--     <script src="js/bid_item_sov_index_finder.js"></script>        
@@ -203,16 +203,29 @@
             
         var bounds_group = new L.featureGroup([]);
 
+        function setBounds() {
+        
+        map.setView(new L.LatLng(37.7212, -122.4308), 15);
+
+        }
+
+        setBounds();
+        L.ImageOverlay.include({
+            getBounds: function() {
+                return this._bounds;
+            }
+        });
+
     </script>
     
     <script src="js/overlay_pane_creator.js"></script> 
     <script src="js/layer_toggle/add_layer_osm.js"></script>
     <script src="js/layer_toggle/add_layer_pop_function.js"></script>
     <script src="js/layer_toggle/add_layer_u.js"></script>
-    <!-- <script src="js/layer_toggle/add_layer_sw.js"></script>
+    <script src="js/layer_toggle/add_layer_sw.js"></script>
     <script src="js/layer_toggle/add_layer_r.js"></script>
     <script src="js/layer_toggle/add_layer_cr.js"></script>
-    <script src="js/layer_toggle/add_line_layer_sw_mn.js"></script>
+    <!-- <script src="js/layer_toggle/add_line_layer_sw_mn.js"></script>
     <script src="js/layer_toggle/add_line_layer_sw_cl.js"></script>
     <script src="js/layer_toggle/add_line_layer_sw_lt.js"></script>
     <script src="js/layer_toggle/add_point_layer_sw_mh.js"></script>    
