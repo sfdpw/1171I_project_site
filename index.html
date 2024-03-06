@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>1171I Project Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,width=device-width">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/drop_down.css">
+    <script src="js/drop_down.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+    <link rel="stylesheet" href="css/site_styles.css">
+    <link rel="stylesheet" href="css/L.Control.Locate.min.css">
+    <link rel="stylesheet" href="css/qgis2web.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/leaflet-measure.css">
+    <link rel="stylesheet" href="css/map_page_styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <link rel="icon" type="image/png" href="legend/1171I_fav.png" />
+
+    <script src="js/top_nav_bar.js"></script>
+    <script src="js/popup_populator.js"></script>
+
+    <script src="js/qgis2web_expressions.js"></script>
+    <script src="js/L.Control.Locate.min.js"></script>
+    <script src="js/leaflet.rotatedMarker.js"></script>
+    <script src="js/leaflet.pattern.js"></script>
+    <script src="js/leaflet-hash.js"></script>
+    <script src="js/Autolinker.min.js"></script>
+    <script src="js/rbush.min.js"></script>
+    <script src="js/labelgun.min.js"></script>
+    <script src="js/labels.js"></script>
+    <script src="js/leaflet-measure.js"></script>
+    <script src="js/number_pad_functions.js"></script>   
+    <script src="js/misc_layer_mgmt_functions.js"></script>
+    <script src="js/proj4.js"></script>
+    <script src="js/proj4leaflet.js"></script>
+    <script src="js/layer_filter.js"></script>    
+
+    <script src="data/relevant_dwg_arrays.js"></script>
+    <script src="data/plan_boundaries.js"></script>
+    <!-- <script src="js/sewer_line_reflexive_functions.js"></script>
+    <script src="js/sewer_point_reflexive_functions.js"></script>
+    <script src="js/sewer_status_codes.js"></script> -->
+    <!-- <script src="js/map_feature_styler.js"></script>     -->
+    
+    <!-- <script src="tcps/tcp_list.js"></script>
+    <script src="as_builts/as_built_list.js"></script> -->
+
+    <script src="payments/misc_payment_arrays.js"></script>    
+<!--     <script src="js/bid_item_sov_index_finder.js"></script>        
+    <script src="data/sewer_lines.js"></script>
+    <script src="data/sewer_points.js"></script>
+    <script src="data/flatwork_polygons.js"></script> -->
+    <script src="js/popup_content_return.js"></script>    
+    
+    <script src="js/number_pad_functions.js"></script>   
+    <!-- <script src="payments/misc_payment_functions.js"></script>
+    <script src="payments/base_sov.js"></script> -->
+    
+    <script>
+       
+      var master_layer_array = [];
+
+    //   var index_limits_sw_mn = [500, 506];
+    //   add_feature_layer('mn', 500, json_1171I_sewer_lines, '(E) to remain', '#beb297');    
+    //   add_feature_layer('mn', 501, json_1171I_sewer_lines, 'Remove (E)', '#91522d');
+    //   add_feature_layer('mn', 502, json_1171I_sewer_lines, 'Install (N) 12in VCP main', '#ff0109');
+    //   add_feature_layer('mn', 503, json_1171I_sewer_lines, 'Install (N) 18in VCP main', '#f40021');
+    //   add_feature_layer('mn', 504, json_1171I_sewer_lines, 'Install (N) 27in VCP main', '#ff0548');
+    //   add_feature_layer('mn', 505, json_1171I_sewer_lines, 'Line (E) 18in ISP main', '#57c5e4');
+    //   add_feature_layer('mn', 506, json_1171I_sewer_lines, 'Line (E) 3ft x 5ft brick main', '#2496b6');
+
+    //   var index_limits_sw_cl = [520, 523];
+    //   add_feature_layer('cl', 520, json_1171I_sewer_lines, '(E) to remain', '#beb297');   
+    //   add_feature_layer('cl', 521, json_1171I_sewer_lines, 'Abandon (E) culvert', '#ff9e17');
+    //   add_feature_layer('cl', 522, json_1171I_sewer_lines, 'Install (N) culvert', '#ff015a');      
+    //   add_feature_layer('cl', 523, json_1171I_sewer_lines, 'Improve (E) culvert as directed', '#94d38e');
+
+    //   var index_limits_sw_lt = [540, 541];
+    //   add_feature_layer('lt', 540, json_1171I_sewer_lines, '(E) to remain', '#beb297');   
+    //   add_feature_layer('lt', 541, json_1171I_sewer_lines, 'Improve (E) side sewer as directed', '#5e8a5a');          
+     
+    //   var index_limits_sw_mh = [560, 566];
+    //   add_feature_layer('mh', 560, json_1171I_sewer_points , '(E) to remain', '#beb297');
+    //   add_feature_layer('mh', 561, json_1171I_sewer_points , 'Remove (E)', '#91522d');
+    //   add_feature_layer('mh', 562, json_1171I_sewer_points , 'Install (N) manhole per std 87,181', '#ff0109');
+    //   add_feature_layer('mh', 563, json_1171I_sewer_points , 'Install (N) manhole per std 87,182', '#f40021');
+    //   add_feature_layer('mh', 564, json_1171I_sewer_points , 'Install (N) manhole per std 87,184', '#ff0548');
+    //   add_feature_layer('mh', 565, json_1171I_sewer_points , 'Install (N) manhole riser per std 87,185', '#8d5a99');
+    //   add_feature_layer('mh', 566, json_1171I_sewer_points , 'Mortar (E) manhole', '#2496b6');
+
+    //   var index_limits_sw_cb = [580, 582];
+    //   add_feature_layer('cb', 580, json_1171I_sewer_points, '(E) to remain', '#beb297');
+    //   add_feature_layer('cb', 581, json_1171I_sewer_points, 'Install (N) catchbasin', '#ff0109');
+    //   add_feature_layer('cb', 582, json_1171I_sewer_points, 'Abandon (E) catchbasin', '#ff9e17');
+      
+    //   var index_limits_flatwork = [600, 618];       
+    //   add_feature_layer('R_polygon', 600, json_1171I_flatwork_polygons, 'R-03: Grinding','#30123c');
+    //   add_feature_layer('R_polygon', 601, json_1171I_flatwork_polygons, 'R-04: HMA','#3e3a93');
+    //   add_feature_layer('R_polygon', 602, json_1171I_flatwork_polygons, 'R-05: 8in Concrete Base','#465ed1');
+    //   add_feature_layer('R_polygon', 603, json_1171I_flatwork_polygons, 'R-06: 10in Concrete Base','#467ff5');
+    //   add_feature_layer('R_polygon', 604, json_1171I_flatwork_polygons, 'R-07: Conc. Pave., Gutt., Parking Str.','#3aa1fb');
+    //   add_feature_layer('R_polygon', 605, json_1171I_flatwork_polygons, 'R-08: Sidewalk','#22c3e3');      
+    //   add_feature_layer('R_polygon', 606, json_1171I_flatwork_polygons, 'R-09: Granite Curb (Reset)','#18ddbf');      
+    //   add_feature_layer('R_polygon', 607, json_1171I_flatwork_polygons, 'R-10: Concrete Curb','#2cef9d');      
+    //   add_feature_layer('R_polygon', 608, json_1171I_flatwork_polygons, 'R-11: Combined Curb and Gutter','#5cfb70');      
+    //   add_feature_layer('R_polygon', 609, json_1171I_flatwork_polygons, 'R-12: Curb Ramps','#8fff48');      
+    //   add_feature_layer('R_polygon', 610, json_1171I_flatwork_polygons, 'R-13: PB - Type I','#b5f736');  
+    //   add_feature_layer('R_polygon', 611, json_1171I_flatwork_polygons, 'R-14: PB - Type III','#d7e336');  
+    //   add_feature_layer('R_polygon', 612, json_1171I_flatwork_polygons, 'R-15: Adjust (E) Frame and Grate / Lid','#efcb3a');        
+    //   add_feature_layer('R_polygon', 613, json_1171I_flatwork_polygons, 'R-16: Adjust (E) WD Box','#fdad34');        
+    //   add_feature_layer('R_polygon', 614, json_1171I_flatwork_polygons, 'R-17: Reconstruct WD Box','#fb8726');        
+    //   add_feature_layer('R_polygon', 615, json_1171I_flatwork_polygons, 'R-18: Tree Protection','#f16014');  
+    //   add_feature_layer('R_polygon', 616, json_1171I_flatwork_polygons, 'SW-28: Beyond Trench - Conc. Base','#df4008');  
+    //   add_feature_layer('R_polygon', 617, json_1171I_flatwork_polygons, 'SW-29: Beyond Trench - HMA','#c32604');        
+    //   add_feature_layer('R_polygon', 618, json_1171I_flatwork_polygons, 'SW-30: Beyond Trench - Grinding','#a11202');        
+        
+    </script>
+
+</head>
+
+
+<body class="map_body">
+  <div class="grid-parent-page">  
+    <div class="grid-div-nav" id="menu_nav">
+      <script>
+        document.getElementById("menu_nav").innerHTML += top_nav('map');
+      </script>
+    </div>
+    <div class="grid-div-map" id="map_page">
+      <div class="map" id="map"></div>
+    </div>
+    <div class="grid-div-side-menu" id="map_master_menu">
+      <!-- <script src="js/menu_cards/menu_card_sheet_layers.js"></script>
+      <script src="js/menu_cards/menu_card_sheet_overlays.js"></script>
+      <script src="js/menu_cards/menu_card_features_sw.js"></script>
+      <script src="js/menu_cards/menu_card_features_flatwork.js"></script> -->
+    </div>
+  </div>
+      
+  <script>
+        var highlightLayer;
+
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+                highlightLayer.setStyle({
+                    color: '#ffffff',
+                    fillColor: '#ffffff',
+                    fillOpacity: 0.5
+                });
+        }
+        var map = L.map('map', {
+            zoomControl: true,
+            maxZoom: 23,
+            minZoom: 1
+        }).fitBounds([[37.711928, -122.415742], [37.787183, -122.388345]]);
+                      
+        var hash = new L.Hash(map);
+
+        map.attributionControl.setPrefix('The accuracy of information presented on this map is not guaranteed. Consult City Representative for official documentation.');
+
+        var autolinker = new Autolinker({
+            truncate: {
+                length: 30,
+                location: 'smart'
+            }
+        });
+        L.control.locate({
+            locateOptions: {
+                maxZoom: 19
+            }
+        }).addTo(map);
+        
+        var measureControl = new L.Control.Measure({
+            position: 'topleft',
+            primaryLengthUnit: 'feet',
+            secondaryLengthUnit: 'miles',
+            primaryAreaUnit: 'sqfeet',
+            secondaryAreaUnit: 'sqmiles'
+        });
+        measureControl.addTo(map);
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+            .innerHTML = '';
+        document.getElementsByClassName('leaflet-control-measure-toggle')[0]
+            .className += ' fas fa-ruler';
+            
+        map.addControl(new clear_layers_button());    
+            
+        var bounds_group = new L.featureGroup([]);
+
+    </script>
+    
+    <script src="js/overlay_pane_creator.js"></script> 
+    <script src="js/layer_toggle/add_layer_osm.js"></script>
+    <!-- <script src="js/layer_toggle/add_layer_pop_function.js"></script>
+    <script src="js/layer_toggle/add_layer_u.js"></script>
+    <script src="js/layer_toggle/add_layer_sw.js"></script>
+    <script src="js/layer_toggle/add_layer_r.js"></script>
+    <script src="js/layer_toggle/add_layer_cr.js"></script>
+    <script src="js/layer_toggle/add_line_layer_sw_mn.js"></script>
+    <script src="js/layer_toggle/add_line_layer_sw_cl.js"></script>
+    <script src="js/layer_toggle/add_line_layer_sw_lt.js"></script>
+    <script src="js/layer_toggle/add_point_layer_sw_mh.js"></script>    
+    <script src="js/layer_toggle/add_point_layer_sw_cb.js"></script>        
+    <script src="js/layer_toggle/add_polygon_layer_flatwork.js"></script>            -->
+        
+    <script>       
+      
+        function handleChange(checkbox, layer) {
+            if (checkbox.checked == true) {
+                map.addLayer(layer);
+            } else {
+                map.removeLayer(layer);
+            }
+            check_clone(checkbox.id);
+        }
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
