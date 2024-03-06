@@ -1,0 +1,32 @@
+/* .dropdown-menu {
+width: 500px !important;
+height: 600px !important;
+font-size: 10px !important;
+} */
+
+
+ tbody, .form-select, .form-control, .pagination-info, .page-link, .th-inner, .page-list {
+
+       font-size: 9px;
+
+} 
+
+th {
+
+  vertical-align: top !important;
+
+}
+
+
+.tracking_table {
+
+ border-color: black !important;
+ height: 100%;
+ position: absolute;
+ overflow-y: scroll;
+ 
+ 
+}
+
+
+
