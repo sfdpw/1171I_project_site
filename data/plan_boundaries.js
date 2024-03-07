@@ -15,7 +15,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['01', 0],
+                'dwg_no': ['01', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -64,7 +64,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['02', 0],
+                'dwg_no': ['02', [0]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -100,7 +100,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['02', 0],
+                'dwg_no': ['02', [0]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -132,7 +132,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['03', 0],
+                'dwg_no': ['03', [0, 1]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -164,7 +164,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['03', 0],
+                'dwg_no': ['03', [0, 1]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -200,7 +200,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['04', 0],
+                'dwg_no': ['04', [0]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -260,7 +260,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['04', 0],
+                'dwg_no': ['04', [0]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -300,7 +300,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['05', 0],
+                'dwg_no': ['05', [0, 1]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -340,7 +340,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['05', 0],
+                'dwg_no': ['05', [0, 1]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -374,7 +374,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['06', 0],
+                'dwg_no': ['06', [0]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -418,7 +418,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['06', 0],
+                'dwg_no': ['06', [0]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -462,7 +462,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['07', 0],
+                'dwg_no': ['07', [0]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -498,7 +498,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['07', 0],
+                'dwg_no': ['07', [0]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -534,7 +534,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['08', 0],
+                'dwg_no': ['08', [0]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -574,7 +574,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['08', 0],
+                'dwg_no': ['08', [0]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -606,7 +606,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['09', 0],
+                'dwg_no': ['09', [0]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -646,7 +646,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['09', 0],
+                'dwg_no': ['09', [0]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -682,7 +682,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['10', 0],
+                'dwg_no': ['10', [0]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -722,7 +722,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['10', 0],
+                'dwg_no': ['10', [0]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -758,7 +758,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'R',
-                'dwg_no': ['11', 0],
+                'dwg_no': ['11', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -824,7 +824,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['01', 0],
+                'dwg_no': ['01', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -870,7 +870,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['02', 0],
+                'dwg_no': ['02', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -916,7 +916,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['03', 0],
+                'dwg_no': ['03', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -964,7 +964,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['04', 0],
+                'dwg_no': ['04', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1014,7 +1014,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['05', 0],
+                'dwg_no': ['05', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1058,7 +1058,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['06', 0],
+                'dwg_no': ['06', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1105,7 +1105,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['07', 0],
+                'dwg_no': ['07', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1143,7 +1143,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['08', 0],
+                'dwg_no': ['08', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1181,7 +1181,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['09', 0],
+                'dwg_no': ['09', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1219,7 +1219,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['10', 0],
+                'dwg_no': ['10', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1255,7 +1255,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['11', 0],
+                'dwg_no': ['11', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1291,7 +1291,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['12', 0],
+                'dwg_no': ['12', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1329,7 +1329,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['13', 0],
+                'dwg_no': ['13', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1374,7 +1374,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['14', 0],
+                'dwg_no': ['14', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1420,7 +1420,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['15', 0],
+                'dwg_no': ['15', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1459,7 +1459,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['16', 0],
+                'dwg_no': ['16', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1494,7 +1494,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['17', 0],
+                'dwg_no': ['17', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1536,7 +1536,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['18', 0],
+                'dwg_no': ['18', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1565,7 +1565,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['20', 0],
+                'dwg_no': ['20', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1593,7 +1593,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['19', 0],
+                'dwg_no': ['19', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1644,7 +1644,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['21', 0],
+                'dwg_no': ['21', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1681,7 +1681,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['22', 0],
+                'dwg_no': ['22', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1719,7 +1719,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['23', 0],
+                'dwg_no': ['23', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1755,7 +1755,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['24', 0],
+                'dwg_no': ['24', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1801,7 +1801,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['25', 0],
+                'dwg_no': ['25', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1848,7 +1848,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['26', 0],
+                'dwg_no': ['26', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1887,7 +1887,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['27', 0],
+                'dwg_no': ['27', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1924,7 +1924,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['28', 0],
+                'dwg_no': ['28', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1967,7 +1967,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['29', 0],
+                'dwg_no': ['29', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2004,7 +2004,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['30', 0],
+                'dwg_no': ['30', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2042,7 +2042,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['31', 0],
+                'dwg_no': ['31', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2087,7 +2087,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['32', 0],
+                'dwg_no': ['32', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2135,7 +2135,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['33', 0],
+                'dwg_no': ['33', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2181,7 +2181,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['34', 0],
+                'dwg_no': ['34', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2219,7 +2219,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['35', 0],
+                'dwg_no': ['35', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2257,7 +2257,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['36', 0],
+                'dwg_no': ['36', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2294,7 +2294,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['37', 0],
+                'dwg_no': ['37', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2333,7 +2333,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['39', 0],
+                'dwg_no': ['39', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2419,7 +2419,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['40', 0],
+                'dwg_no': ['40', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2457,7 +2457,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['41', 0],
+                'dwg_no': ['41', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2503,7 +2503,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['42', 0],
+                'dwg_no': ['42', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2541,7 +2541,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['43', 0],
+                'dwg_no': ['43', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2588,7 +2588,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['44', 0],
+                'dwg_no': ['44', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2620,7 +2620,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['45', 0],
+                'dwg_no': ['45', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2658,7 +2658,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['46', 0],
+                'dwg_no': ['46', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2706,7 +2706,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['47', 0],
+                'dwg_no': ['47', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2756,7 +2756,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['01', 0],
+                'dwg_no': ['01', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2796,7 +2796,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['02', 0],
+                'dwg_no': ['02', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2828,7 +2828,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['03', 0],
+                'dwg_no': ['03', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2870,7 +2870,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['04', 0],
+                'dwg_no': ['04', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2912,7 +2912,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['05', 0],
+                'dwg_no': ['05', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2951,7 +2951,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['07', 0],
+                'dwg_no': ['07', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -2987,7 +2987,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['08', 0],
+                'dwg_no': ['08', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3019,7 +3019,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['08', 0],
+                'dwg_no': ['08', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3068,7 +3068,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['09', 0],
+                'dwg_no': ['09', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3100,7 +3100,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['10', 0],
+                'dwg_no': ['10', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3136,7 +3136,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['11', 0],
+                'dwg_no': ['11', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3196,7 +3196,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['12', 0],
+                'dwg_no': ['12', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3236,7 +3236,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['13', 0],
+                'dwg_no': ['13', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3276,7 +3276,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['14', 0],
+                'dwg_no': ['14', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3310,7 +3310,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['15', 0],
+                'dwg_no': ['15', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3354,7 +3354,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['16', 0],
+                'dwg_no': ['16', [0]],
                 "specifier": 'a',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3390,7 +3390,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['16', 0],
+                'dwg_no': ['16', [0]],
                 "specifier": 'b',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3426,7 +3426,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['01', 0],
+                'dwg_no': ['01', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3466,7 +3466,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['02', 0],
+                'dwg_no': ['02', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3498,7 +3498,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['03', 0],
+                'dwg_no': ['03', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3538,7 +3538,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['04', 0],
+                'dwg_no': ['04', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3578,7 +3578,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['05', 0],
+                'dwg_no': ['05', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3618,7 +3618,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['06', 0],
+                'dwg_no': ['06', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3657,7 +3657,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['07', 0],
+                'dwg_no': ['07', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3721,7 +3721,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['08', 0],
+                'dwg_no': ['08', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3770,7 +3770,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['09', 0],
+                'dwg_no': ['09', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3806,7 +3806,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['10', 0],
+                'dwg_no': ['10', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3838,7 +3838,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['11', 0],
+                'dwg_no': ['11', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3870,7 +3870,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['12', 0],
+                'dwg_no': ['12', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3906,7 +3906,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['13', 0],
+                'dwg_no': ['13', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3966,7 +3966,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['14', 0],
+                'dwg_no': ['14', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4006,7 +4006,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['15', 0],
+                'dwg_no': ['15', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4046,7 +4046,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['16', 0],
+                'dwg_no': ['16', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4080,7 +4080,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['17', 0],
+                'dwg_no': ['17', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4124,7 +4124,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['18', 0],
+                'dwg_no': ['18', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4172,7 +4172,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['19', 0],
+                'dwg_no': ['19', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4208,7 +4208,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['20', 0],
+                'dwg_no': ['20', [0]],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4248,7 +4248,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['01', 0],
+                'dwg_no': ['01', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4298,7 +4298,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['02', 0],
+                'dwg_no': ['02', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4346,7 +4346,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['03', 0],
+                'dwg_no': ['03', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4396,7 +4396,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['04', 0],
+                'dwg_no': ['04', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4446,7 +4446,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['05', 0],
+                'dwg_no': ['05', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",
@@ -4494,7 +4494,7 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['06', 0],
+                'dwg_no': ['06', [0]],
                 "specifier": '0',
                 'as_built': 'none',
                 "tcp": "none",

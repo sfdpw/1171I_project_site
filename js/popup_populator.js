@@ -1,18 +1,24 @@
 /*################# SHEET ENTRY CREATOR ########################################################## */
-function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier)
-
-{
+function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier) {
 
     var output_string = "";
     var overlay_checkbox = "";
     var specifier_text = '';
+    var view_detail = '';
+    var view_detail = '';
 
-    for (let nn = 0; nn <= dwg_no[1]; nn++) {
 
-        if (specifier != '') {
+    // for (let nn = 0; nn <= dwg_no[1]; nn++) {
+
+    for (const nn of dwg_no[1]) {
+
+        if (specifier != '' && specifier != '0') {
 
             overlay_checkbox = 'layer_1171I_dwg_tile_'.concat(dwg_type, "_", dwg_no[0], "_", specifier, "_", num_pad(nn, 3));
             specifier_text = ' - '.concat(specifier);
+
+            view_detail = '<br>'.concat('<b>(View ', specifier.toUpperCase(), ')</b><br>');
+
 
         } else {
 
@@ -20,23 +26,24 @@ function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier)
 
         }
 
-
         output_string += "<input type=\"checkbox\" id=\"".concat(overlay_checkbox, twin_op,
             "\" onchange=\"handleChange(this, ", overlay_checkbox, ");\">&nbsp;");
 
         if (nn > 0) {
 
             output_string += "<a href=\".\\sheets\\1171I_dwg_".concat(dwg_type, "-", dwg_no[0],
-                "_rev", num_pad(nn, 2), ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], " Rev. ", nn, specifier_text, "<\/a><br>");
+                "_rev", num_pad(nn, 2), ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], " Rev. ", nn, "<\/a><br>");
 
         } else {
 
             output_string += "<a href=\".\\sheets\\1171I_dwg_".concat(dwg_type, "-", dwg_no[0],
-                ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], specifier_text, "<\/a><br>");
+                ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], "<\/a><br>");
 
         }
 
     }
+
+    output_string += view_detail;
 
     return output_string
 
@@ -45,9 +52,7 @@ function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier)
 
 /*################# RELEVANT DOC ENTRY CREATOR ########################################################## */
 
-function rlvnt_entry_creator(rlvnt_array, striping_plan_array = [])
-
-{
+function rlvnt_entry_creator(rlvnt_array, striping_plan_array = []) {
 
     var output_string = "";
 
@@ -57,17 +62,13 @@ function rlvnt_entry_creator(rlvnt_array, striping_plan_array = [])
     //var file_desc = "";
 
 
-    for (const striping_plan of striping_plan_array)
-
-    {
+    for (const striping_plan of striping_plan_array) {
 
         output_string += "<a href=\".\\sheets\\1171I_dwg_T_".concat(striping_plan, ".pdf\" target=\"_blank\">".concat("T-", striping_plan).replace("-0", "-"), " - Striping Plan<\/a><br>");
 
     }
 
-    for (const rlvnt_doc of rlvnt_array)
-
-    {
+    for (const rlvnt_doc of rlvnt_array) {
 
         output_string += "<a href=\".\\sheets\\".concat(rlvnt_doc.file_name, ".pdf\" target=\"_blank\">",
             rlvnt_doc.file_name.concat(' - ', rlvnt_doc.desc).replace('1171I_dwg_', 'Project Sheet ').replace(/_/g, ' '), "<\/a><br>");
@@ -123,9 +124,7 @@ function rlvnt_entry_creator(rlvnt_array, striping_plan_array = [])
 
 /*################# SPEC ENTRY CREATOR ########################################################## */
 
-function popup_spec_entry_creator(popup_args = null)
-
-{
+function popup_spec_entry_creator(popup_args = null) {
 
     var output_string = "";
 
@@ -138,24 +137,18 @@ function popup_spec_entry_creator(popup_args = null)
         var file_desc = "";
 
 
-        for (var ii = 0; ii < popup_args.length; ii += 2)
-
-        {
+        for (var ii = 0; ii < popup_args.length; ii += 2) {
 
             file_name = popup_args[ii].replace(/ /g, '_');
             file_desc = popup_args[ii + 1];
 
 
 
-            for (var jj = 0; jj < list_of_specs.length; jj++)
-
-            {
+            for (var jj = 0; jj < list_of_specs.length; jj++) {
 
                 //alert(list_of_specs[jj].substring(6, 6 + file_name.length));
 
-                if (file_name == list_of_specs[jj].substring(6, 6 + file_name.length))
-
-                {
+                if (file_name == list_of_specs[jj].substring(6, 6 + file_name.length)) {
 
                     //alert(file_name);
 
@@ -170,13 +163,9 @@ function popup_spec_entry_creator(popup_args = null)
             }
 
 
-            if (file_desc == null)
-
-            {
+            if (file_desc == null) {
                 //             output_string = output_string.concat("<a href=\".\\specs\\1171I_", file_name, ".pdf\" target=\"_blank\">", file_name.substring(0, file_name_length), "<\/a> - ", file_name.substring(file_name_length+1, file_name.length).replace(/_/g,' '));
-            } else
-
-            {
+            } else {
                 //            output_string = output_string.concat("<a href=\".\\specs\\1171I_", file_name, ".pdf\" target=\"_blank\">", file_name.substring(0, file_name_length).replace(/_/g,' '), "<\/a> - ", file_desc);
             }
 
@@ -199,29 +188,23 @@ function popup_spec_entry_creator(popup_args = null)
 /* ################# AS BUILT ENTRY CREATOR ########################################################## */
 
 
-function popup_as_built_entry_creator(feature)
-
-{
+function popup_as_built_entry_creator(feature) {
 
     var output_string = '';
     var compare_string = '';
 
-    for (const as_built_list_entry of json_ab_list)
+    for (const as_built_list_entry of json_ab_list) {
 
-    {
+        compare_string = as_built_list_entry.substring(15, 20)
 
-      compare_string = as_built_list_entry.substring(15, 20)
-      
-      if ( compare_string.slice(-1) == '_' ) {
-      
-        compare_string = compare_string.substring(0, compare_string.length-1)
-      
-      } 
-    
-     
-        if ( compare_string == feature.properties.dwg_type.concat('_', feature.properties.dwg_no[0]) )
-        
-         {
+        if (compare_string.slice(-1) == '_') {
+
+            compare_string = compare_string.substring(0, compare_string.length - 1)
+
+        }
+
+
+        if (compare_string == feature.properties.dwg_type.concat('_', feature.properties.dwg_no[0])) {
 
             output_string += "<a href=\".\\as_builts\\".concat(as_built_list_entry,
                 ".pdf\" target=\"_blank\">", as_built_list_entry.replace('1171I_', ''), "<\/a><br>");
@@ -241,9 +224,7 @@ function popup_as_built_entry_creator(feature)
 /* ################# TCP ENTRY CREATOR ########################################################## */
 
 
-function popup_tcp_entry_creator(feature)
-
-{
+function popup_tcp_entry_creator(feature) {
 
     var output_string = '';
     var tcp_desc = '';
