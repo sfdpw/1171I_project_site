@@ -2,62 +2,49 @@
 
 function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier, pop_deets) {
 
-    var view_table = '';
+    var view_table = '<table>';
 
-    if (dwg_type == 'SW' || dwg_type == 'CR' || dwg_type == 'U' || dwg_type == 'E') {
+    if (specifier != '') {
 
-        var head_text = dwg_type.concat('-', dwg_no);
-
-        if (specifier != '') {
-
-            head_text = head_text.concat(' (View ', specifier.toUpperCase(), ')');
-
-        }
-
-        view_table = '<table>';
-
+        var head_text = '(View '.concat(specifier.toUpperCase(), ')');
         view_table += '<tr><th colspan="3">'.concat(head_text, '</th></tr>');
-
         view_table += '<tr><td colspan="3">'.concat('&nbsp;', '</td></tr>');
 
+    }
 
-        for (const view_row of pop_deets) {
+    for (const view_row of pop_deets) {
 
-            view_table += '<tr>';
+        view_table += '<tr style="height:18px">';
 
-            if (view_row[0] == '') {
+        if (view_row[0] == '') {
 
-                view_table += '<td></td>';
+            view_table += '<td></td>';
 
-            } else {
+        } else {
 
-                view_table += '<td><input type=\"checkbox\" id=\"'.concat(
-                    view_row[0], twin_op, '\" onchange=\"handleChange(this, ',
-                    view_row[0], ');\"></td>');
-            }
-
-            if (view_row[1] != '') {
-
-                view_table += '<td><a href=\".\\sheets\\'.concat(
-                    view_row[1], '.pdf\" target=\"_blank\">',
-                    view_row[1].replace('1171I_dwg_', '').replace('_rev', ' Rev. '), '<\/a></td>');
-                    view_table += '<td>'.concat(view_row[2], '</td>');
-
-
-            } else {
-
-                view_table += '<td>'.concat(view_row[2], '</td>');
-                view_table += '<td></td>';
-
-
-            }
-
-            view_table += '</tr>';
+            view_table += '<td><input type=\"checkbox\" id=\"'.concat(
+                view_row[0], twin_op, '\" onchange=\"handleChange(this, ',
+                view_row[0], ');\"></td>');
         }
 
-        view_table += '</table>'
+        if (view_row[1] != '') {
 
+            view_table += '<td><a href=\".\\sheets\\'.concat(
+                view_row[1], '.pdf\" target=\"_blank\">',
+                view_row[1].replace('1171I_dwg_', '').replace('_rev', ' Rev. '), '<\/a></td>');
+            view_table += '<td>'.concat(view_row[2], '</td>');
+
+        } else {
+
+            view_table += '<td>'.concat(view_row[2], '</td>');
+            view_table += '<td></td>';
+
+        }
+
+        view_table += '</tr>';
     }
+
+    view_table += '</table>'
 
     return view_table
 }
