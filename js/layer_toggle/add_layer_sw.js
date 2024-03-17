@@ -1,5 +1,5 @@
 map.createPane('pane_1171I_sw_dwgs');
-map.getPane('pane_1171I_sw_dwgs').style.zIndex = 202;
+map.getPane('pane_1171I_sw_dwgs').style.zIndex = 210;
 map.getPane('pane_1171I_sw_dwgs').style['mix-blend-mode'] = 'normal';
 
 var layer_1171I_sw_dwgs = new L.geoJson(layer_filter('SW', json_1171I_plan_boundaries), {
