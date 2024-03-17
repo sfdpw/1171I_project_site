@@ -10,45 +10,45 @@ function return_plan_boundary_popup(feature) {
                                   <strong>Sheet(s)</strong></button>\
                                 </h2>\
                                 </div>\
-                                <div id="PLAN_collapse_01" class="collapse" aria-labelledby="PLAN_sheet" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type, feature.properties.dwg_no, feature.properties.specifier) + '</div>\
+                                <div id="PLAN_collapse_01" class="collapse show" aria-labelledby="PLAN_sheet" data-parent="#PLAN_popup">\
+                                <div class="card-body">' + popup_sheet_entry_creator('_twin_popup', feature.properties.dwg_type, feature.properties.dwg_no, feature.properties.specifier, feature.properties.pop_deets) + '</div>\
                                 </div>\
                                 </div>' 
                                 
-if ( feature.properties.dwg_type != 'U' ) {                             
+// if ( feature.properties.dwg_type != 'U' ) {                             
 
-    popupContent += '<div class="card">\
-                                <div class="card-header p-0" id="PLAN_AB">\
-                                <h2 class="mb-0">\
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_02" aria-expanded="false" aria-controls="PLAN_collapse_02"><strong>As Built(s)</strong></button>\
-                                </h2>\
-                                </div>\
-                                <div id="PLAN_collapse_02" class="collapse" aria-labelledby="PLAN_AB" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + popup_as_built_entry_creator(feature) + '</div>\
-                                </div>\
-                                </div>\
-\
-                                <div class="card">\
-                                <div class="card-header p-0" id="PLAN_TCP">\
-                                <h2 class="mb-0">\
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_03" aria-expanded="false" aria-controls="PLAN_collapse_03"><strong>Traffic Control Plan(s)</strong></button>\
-                                </h2>\
-                                </div>\
-                                <div id="PLAN_collapse_03" class="collapse" aria-labelledby="PLAN_TCP" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + popup_tcp_entry_creator(feature) + '</div>\
-                                </div>\
-                                </div>\
-\
-                                <div class="card">\
-                                <div class="card-header p-0" id="PLAN_relevant">\
-                                <h2 class="mb-0">\
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_04" aria-expanded="false" aria-controls="PLAN_collapse_04"><strong>Relevant Sheet(s)</strong></button>\
-                                </h2>\
-                                </div>\
-                                <div id="PLAN_collapse_04" class="collapse" aria-labelledby="PLAN_relevant" data-parent="#PLAN_popup">\
-                                <div class="card-body">' + feature.properties.rlvnt + '</div>\
-                                </div>\
-                                </div>' }
+//     popupContent += '<div class="card">\
+//                                 <div class="card-header p-0" id="PLAN_AB">\
+//                                 <h2 class="mb-0">\
+//                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_02" aria-expanded="false" aria-controls="PLAN_collapse_02"><strong>As Built(s)</strong></button>\
+//                                 </h2>\
+//                                 </div>\
+//                                 <div id="PLAN_collapse_02" class="collapse" aria-labelledby="PLAN_AB" data-parent="#PLAN_popup">\
+//                                 <div class="card-body">' + popup_as_built_entry_creator(feature) + '</div>\
+//                                 </div>\
+//                                 </div>\
+// \
+//                                 <div class="card">\
+//                                 <div class="card-header p-0" id="PLAN_TCP">\
+//                                 <h2 class="mb-0">\
+//                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_03" aria-expanded="false" aria-controls="PLAN_collapse_03"><strong>Traffic Control Plan(s)</strong></button>\
+//                                 </h2>\
+//                                 </div>\
+//                                 <div id="PLAN_collapse_03" class="collapse" aria-labelledby="PLAN_TCP" data-parent="#PLAN_popup">\
+//                                 <div class="card-body">' + popup_tcp_entry_creator(feature) + '</div>\
+//                                 </div>\
+//                                 </div>\
+// \
+//                                 <div class="card">\
+//                                 <div class="card-header p-0" id="PLAN_relevant">\
+//                                 <h2 class="mb-0">\
+//                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#PLAN_collapse_04" aria-expanded="false" aria-controls="PLAN_collapse_04"><strong>Relevant Sheet(s)</strong></button>\
+//                                 </h2>\
+//                                 </div>\
+//                                 <div id="PLAN_collapse_04" class="collapse" aria-labelledby="PLAN_relevant" data-parent="#PLAN_popup">\
+//                                 <div class="card-body">' + feature.properties.rlvnt + '</div>\
+//                                 </div>\
+//                                 </div>' }
                                 
  popupContent += '</div>';                               
                                 
@@ -56,121 +56,121 @@ if ( feature.properties.dwg_type != 'U' ) {
 
 }
 
-function pop_up_creator_for_domain(feature, layer)
+// function pop_up_creator_for_domain(feature, layer)
 
-{
+// {
 
-    layer.on({
-        mouseout: function(e) {
-            for (i in e.target._eventParents) {
-                e.target._eventParents[i].resetStyle(e.target);
-            }
-        },
-        mouseover: highlightFeature,
+//     layer.on({
+//         mouseout: function(e) {
+//             for (i in e.target._eventParents) {
+//                 e.target._eventParents[i].resetStyle(e.target);
+//             }
+//         },
+//         mouseover: highlightFeature,
 
-    });
+//     });
 
-    var popupContent = 
+//     var popupContent = 
     
-    '<div class="accordion" id="INST_popup">\
-      <div class="card">\
-        <div class="card-header p-0" id="GEN_details">\
-          <h2 class="mb-0">\
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_01"\
-                    aria-expanded="false" aria-controls="INST_collapse_01">\
-              <strong>General Details</strong>\
-            </button>\
-          </h2>\
-        </div>\
-        <div id="INST_collapse_01" class="collapse show" aria-labelledby="GEN_details" data-parent="#INST_popup">\
-          <div class="card-body">' + 
-            '<strong>Asset ID</strong><br>' + feature.properties.id_a + '<br><br>' +
-            '<strong>Location</strong><br>' + feature.properties.location + '<br><br>' +
-            '<strong>Scope</strong><br>' + feature.properties.scope + '<br><br>' +
-            '<strong>Status</strong><br>' + feature.properties.status +          
-          '</div>\
-        </div>\
-      </div>'
+//     '<div class="accordion" id="INST_popup">\
+//       <div class="card">\
+//         <div class="card-header p-0" id="GEN_details">\
+//           <h2 class="mb-0">\
+//             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_01"\
+//                     aria-expanded="false" aria-controls="INST_collapse_01">\
+//               <strong>General Details</strong>\
+//             </button>\
+//           </h2>\
+//         </div>\
+//         <div id="INST_collapse_01" class="collapse show" aria-labelledby="GEN_details" data-parent="#INST_popup">\
+//           <div class="card-body">' + 
+//             '<strong>Asset ID</strong><br>' + feature.properties.id_a + '<br><br>' +
+//             '<strong>Location</strong><br>' + feature.properties.location + '<br><br>' +
+//             '<strong>Scope</strong><br>' + feature.properties.scope + '<br><br>' +
+//             '<strong>Status</strong><br>' + feature.properties.status +          
+//           '</div>\
+//         </div>\
+//       </div>'
 
-if (
-     ( layer.feature.L_index_stored_in_each_feature >= index_limits_sw_mn[0] && layer.feature.L_index_stored_in_each_feature <= index_limits_sw_mn[1] ) ||
-     ( layer.feature.L_index_stored_in_each_feature >= index_limits_sw_cl[0] && layer.feature.L_index_stored_in_each_feature <= index_limits_sw_cl[1] ) ||
-     ( layer.feature.L_index_stored_in_each_feature >= index_limits_sw_lt[0] && layer.feature.L_index_stored_in_each_feature <= index_limits_sw_lt[1] ) 
-    ) 
+// if (
+//      ( layer.feature.L_index_stored_in_each_feature >= index_limits_sw_mn[0] && layer.feature.L_index_stored_in_each_feature <= index_limits_sw_mn[1] ) ||
+//      ( layer.feature.L_index_stored_in_each_feature >= index_limits_sw_cl[0] && layer.feature.L_index_stored_in_each_feature <= index_limits_sw_cl[1] ) ||
+//      ( layer.feature.L_index_stored_in_each_feature >= index_limits_sw_lt[0] && layer.feature.L_index_stored_in_each_feature <= index_limits_sw_lt[1] ) 
+//     ) 
  
-{
+// {
 
-    popupContent += 
+//     popupContent += 
     
-      '<div class="card">\
-        <div class="card-header p-0" id="SMTTL_details">\
-          <h2 class="mb-0">\
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_02"\
-                    aria-expanded="false" aria-controls="INST_collapse_02">\
-              <strong>Submittals</strong>\
-            </button>\
-          </h2>\
-        </div>\
-        <div id="INST_collapse_02" class="collapse" aria-labelledby="SMTTL_details" data-parent="#INST_popup">\
-          <div class="card-body">\
-            <strong>Pre-Con Submittal - Video - Response</strong><br>' +
-              feature.properties.submittals.tvi_pre_con.submittal_no + ' - ' +
-              feature.properties.submittals.tvi_pre_con.video_no + ' - ' +
-              feature.properties.submittals.tvi_pre_con.response +
-              '<br><br>\
-            <strong>Post-Con Submittal - Video - Response</strong><br>' +
-              feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
-              feature.properties.submittals.tvi_post_con.video_no + ' - ' +
-              feature.properties.submittals.tvi_post_con.response +
-          '</div>\
-         </div>\
-       </div>'
+//       '<div class="card">\
+//         <div class="card-header p-0" id="SMTTL_details">\
+//           <h2 class="mb-0">\
+//             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_02"\
+//                     aria-expanded="false" aria-controls="INST_collapse_02">\
+//               <strong>Submittals</strong>\
+//             </button>\
+//           </h2>\
+//         </div>\
+//         <div id="INST_collapse_02" class="collapse" aria-labelledby="SMTTL_details" data-parent="#INST_popup">\
+//           <div class="card-body">\
+//             <strong>Pre-Con Submittal - Video - Response</strong><br>' +
+//               feature.properties.submittals.tvi_pre_con.submittal_no + ' - ' +
+//               feature.properties.submittals.tvi_pre_con.video_no + ' - ' +
+//               feature.properties.submittals.tvi_pre_con.response +
+//               '<br><br>\
+//             <strong>Post-Con Submittal - Video - Response</strong><br>' +
+//               feature.properties.submittals.tvi_post_con.submittal_no + ' - ' +
+//               feature.properties.submittals.tvi_post_con.video_no + ' - ' +
+//               feature.properties.submittals.tvi_post_con.response +
+//           '</div>\
+//          </div>\
+//        </div>'
 
-} 
+// } 
  
-    popupContent += 
+//     popupContent += 
     
-      '<div class="card">\
-        <div class="card-header p-0" id="PP_details">\
-          <h2 class="mb-0">\
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_03"\
-                    aria-expanded="false" aria-controls="INST_collapse_03">\
-              <strong>Payment History</strong>\
-            </button>\
-          </h2>\
-        </div>\
-        <div id="INST_collapse_03" class="collapse" aria-labelledby="PP_details" data-parent="#INST_popup">\
-          <div class="card-body">' +
-              pp_history_details(feature) +
-         '</div>\
-        </div>\
-      </div>'
+//       '<div class="card">\
+//         <div class="card-header p-0" id="PP_details">\
+//           <h2 class="mb-0">\
+//             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_03"\
+//                     aria-expanded="false" aria-controls="INST_collapse_03">\
+//               <strong>Payment History</strong>\
+//             </button>\
+//           </h2>\
+//         </div>\
+//         <div id="INST_collapse_03" class="collapse" aria-labelledby="PP_details" data-parent="#INST_popup">\
+//           <div class="card-body">' +
+//               pp_history_details(feature) +
+//          '</div>\
+//         </div>\
+//       </div>'
       
-     popupContent += 
+//      popupContent += 
     
-      '<div class="card">\
-        <div class="card-header p-0" id="PP_summary">\
-          <h2 class="mb-0">\
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_04"\
-                    aria-expanded="false" aria-controls="INST_collapse_04">\
-              <strong>Payment Summary</strong>\
-            </button>\
-          </h2>\
-        </div>\
-        <div id="INST_collapse_04" class="collapse" aria-labelledby="PP_summary" data-parent="#INST_popup">\
-          <div class="card-body">' +
-              pp_summary(feature) +
-         '</div>\
-        </div>\
-      </div>\
-    </div>'     
+//       '<div class="card">\
+//         <div class="card-header p-0" id="PP_summary">\
+//           <h2 class="mb-0">\
+//             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#INST_collapse_04"\
+//                     aria-expanded="false" aria-controls="INST_collapse_04">\
+//               <strong>Payment Summary</strong>\
+//             </button>\
+//           </h2>\
+//         </div>\
+//         <div id="INST_collapse_04" class="collapse" aria-labelledby="PP_summary" data-parent="#INST_popup">\
+//           <div class="card-body">' +
+//               pp_summary(feature) +
+//          '</div>\
+//         </div>\
+//       </div>\
+//     </div>'     
     
     
                          
                                
-    layer.bindPopup(popupContent, {maxHeight: 400});
+//     layer.bindPopup(popupContent, {maxHeight: 400});
 
-}
+// }
 
 function fund_history_details(pp_specifics, bid_item, fund_number)
 

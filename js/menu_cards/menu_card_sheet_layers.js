@@ -58,6 +58,16 @@ document.getElementById("map_master_menu").innerHTML +=
                 </tr>\
                 <tr>\
                   <td>\
+                    <input type="checkbox" id="checkbox_e" onchange="toggle_e()">\
+                  </td>\
+                  <td>\
+                    <img src="legend/1171I_plan_boundary_e.png" width="13" height="13"\
+                         alt="Layer Symbol - E - Electrical"/>\
+                    <label class="layer_label" for="checkbox_e">E - Electrical</label>\
+                  </td>\
+                </tr>\
+                <tr>\
+                  <td>\
                     <input type="checkbox" id="checkbox_osm" onchange="toggle_osm()" checked>\
                   </td>\
                   <td>\

@@ -5,14 +5,14 @@ function project_dwgs_layer_styler(feature) {
             return {
                 pane: 'pane_1171I_sw_dwgs',
                     opacity: 1,
-                    color: 'rgba(35,35,35,1.0)',
+                    color: '#54f978',
                     dashArray: '',
                     lineCap: 'butt',
                     lineJoin: 'miter',
                     weight: 1.0,
                     fill: true,
                     fillOpacity: 0.5,
-                    fillColor: 'rgba(0,152,68,0.5)',
+                    fillColor: '#54f978',
                     interactive: true,
             }
             break;
@@ -21,14 +21,14 @@ function project_dwgs_layer_styler(feature) {
             return {
                 pane: 'pane_1171I_u_dwgs',
                     opacity: 1,
-                    color: 'rgba(35,35,35,1.0)',
+                    color: '#f7721c',
                     dashArray: '',
                     lineCap: 'butt',
                     lineJoin: 'miter',
                     weight: 1.0,
                     fill: true,
                     fillOpacity: 0.5,
-                    fillColor: 'rgba(141, 90, 153, 0.5)',
+                    fillColor: '#f7721c',
                     interactive: true,
             }
             break;
@@ -37,14 +37,14 @@ function project_dwgs_layer_styler(feature) {
             return {
                 pane: 'pane_1171I_r_dwgs',
                     opacity: 1,
-                    color: 'rgba(35,35,35,1.0)',
+                    color: '#cb2c04',
                     dashArray: '',
                     lineCap: 'butt',
                     lineJoin: 'miter',
                     weight: 1.0,
                     fill: true,
                     fillOpacity: 0.5,
-                    fillColor: 'rgba(238,101,27,0.5)',
+                    fillColor: '#cb2c04',
                     interactive: true,
             }
             break;
@@ -53,14 +53,31 @@ function project_dwgs_layer_styler(feature) {
             return {
                 pane: 'pane_1171I_cr_dwgs',
                     opacity: 1,
-                    color: 'rgba(35,35,35,1.0)',
+                    color: '#1ad3cf',
                     dashArray: '',
                     lineCap: 'butt',
                     lineJoin: 'miter',
                     weight: 1.0,
                     fill: true,
                     fillOpacity: 0.5,
-                    fillColor: 'rgba(228, 173, 32, 0.5)',
+                    fillColor: '#1ad3cf',
+                    interactive: true,
+            }
+            break;
+
+
+        case 'E':
+            return {
+                pane: 'pane_1171I_cr_dwgs',
+                    opacity: 1,
+                    color: '#dbdf36',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    weight: 1.0,
+                    fill: true,
+                    fillOpacity: 0.5,
+                    fillColor: '#dbdf36',
                     interactive: true,
             }
             break;

@@ -824,8 +824,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['01', [0]],
+                'dwg_no': '01',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_010_000', '1171I_dwg_CR-01.0', ''],
+                    ['layer_1171I_dwg_tile_CR_011_000', '1171I_dwg_CR-01.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -870,8 +874,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['02', [0]],
+                'dwg_no': '02',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_020_000', '1171I_dwg_CR-02.0', ''],
+                    ['layer_1171I_dwg_tile_CR_021_000', '1171I_dwg_CR-02.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -916,8 +924,14 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['03', [0]],
+                'dwg_no': '03',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_030_000', '1171I_dwg_CR-03.0', ''],
+                    ['layer_1171I_dwg_tile_CR_031_000', '1171I_dwg_CR-03.1', ''],
+                    ['layer_1171I_dwg_tile_CR_030_001', '1171I_dwg_CR-03.0_rev01', ''],
+                    ['layer_1171I_dwg_tile_CR_031_001', '1171I_dwg_CR-03.1_rev01', ''],
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -964,7 +978,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['04', [0]],
+                'dwg_no': '04',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_040_000', '1171I_dwg_CR-04.0', '']
+                ],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -1014,8 +1032,14 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['05', [0]],
+                'dwg_no': '05',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_050_000', '1171I_dwg_CR-05.0', ''],
+                    ['layer_1171I_dwg_tile_CR_051_000', '1171I_dwg_CR-05.1', ''],
+                    ['layer_1171I_dwg_tile_CR_050_001', '1171I_dwg_CR-05.0_rev01', ''],
+                    ['layer_1171I_dwg_tile_CR_051_001', '1171I_dwg_CR-05.1_rev01', ''],
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1058,8 +1082,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['06', [0]],
+                'dwg_no': '06',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_060_000', '1171I_dwg_CR-06.0', ''],
+                    ['layer_1171I_dwg_tile_CR_061_000', '1171I_dwg_CR-06.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1105,8 +1133,14 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['07', [0]],
+                'dwg_no': '07',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_070_000', '1171I_dwg_CR-07.0', ''],
+                    ['layer_1171I_dwg_tile_CR_071_000', '1171I_dwg_CR-07.1', ''],
+                    ['layer_1171I_dwg_tile_CR_070_001', '1171I_dwg_CR-07.0_rev01', ''],
+                    ['layer_1171I_dwg_tile_CR_071_001', '1171I_dwg_CR-07.1_rev01', ''],
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1143,8 +1177,14 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['08', [0]],
+                'dwg_no': '08',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_080_000', '1171I_dwg_CR-08.0', ''],
+                    ['layer_1171I_dwg_tile_CR_081_000', '1171I_dwg_CR-08.1', ''],
+                    ['layer_1171I_dwg_tile_CR_080_001', '1171I_dwg_CR-08.0_rev01', ''],
+                    ['layer_1171I_dwg_tile_CR_081_001', '1171I_dwg_CR-08.1_rev01', ''],
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1181,8 +1221,14 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['09', [0]],
+                'dwg_no': '09',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_090_000', '1171I_dwg_CR-09.0', ''],
+                    ['layer_1171I_dwg_tile_CR_091_000', '1171I_dwg_CR-09.1', ''],
+                    ['layer_1171I_dwg_tile_CR_090_001', '1171I_dwg_CR-09.0_rev01', ''],
+                    ['layer_1171I_dwg_tile_CR_091_001', '1171I_dwg_CR-09.1_rev01', ''],
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1219,8 +1265,14 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['10', [0]],
+                'dwg_no': '10',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_100_000', '1171I_dwg_CR-10.0', ''],
+                    ['layer_1171I_dwg_tile_CR_101_000', '1171I_dwg_CR-10.1', ''],
+                    ['layer_1171I_dwg_tile_CR_100_001', '1171I_dwg_CR-10.0_rev01', ''],
+                    ['layer_1171I_dwg_tile_CR_101_001', '1171I_dwg_CR-10.1_rev01', ''],
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1255,8 +1307,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['11', [0]],
+                'dwg_no': '11',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_110_000', '1171I_dwg_CR-11.0', ''],
+                    ['layer_1171I_dwg_tile_CR_111_000', '1171I_dwg_CR-11.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1291,8 +1347,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['12', [0]],
+                'dwg_no': '12',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_120_000', '1171I_dwg_CR-12.0', ''],
+                    ['layer_1171I_dwg_tile_CR_121_000', '1171I_dwg_CR-12.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1329,8 +1389,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['13', [0]],
+                'dwg_no': '13',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_130_000', '1171I_dwg_CR-13.0', ''],
+                    ['layer_1171I_dwg_tile_CR_131_000', '1171I_dwg_CR-13.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1374,8 +1438,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['14', [0]],
+                'dwg_no': '14',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_140_000', '1171I_dwg_CR-14.0', ''],
+                    ['layer_1171I_dwg_tile_CR_141_000', '1171I_dwg_CR-14.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1420,8 +1488,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['15', [0]],
+                'dwg_no': '15',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_150_000', '1171I_dwg_CR-15.0', ''],
+                    ['layer_1171I_dwg_tile_CR_151_000', '1171I_dwg_CR-15.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1459,8 +1531,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['16', [0]],
+                'dwg_no': '16',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_160_000', '1171I_dwg_CR-16.0', ''],
+                    ['layer_1171I_dwg_tile_CR_161_000', '1171I_dwg_CR-16.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1494,8 +1570,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['17', [0]],
+                'dwg_no': '17',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_170_000', '1171I_dwg_CR-17.0', ''],
+                    ['layer_1171I_dwg_tile_CR_171_000', '1171I_dwg_CR-17.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1536,8 +1616,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['18', [0]],
+                'dwg_no': '18',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_180_000', '1171I_dwg_CR-18.0', ''],
+                    ['layer_1171I_dwg_tile_CR_181_000', '1171I_dwg_CR-18.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1558,43 +1642,18 @@ var json_1171I_plan_boundaries = {
             }
         },
 
-
-        // CR-20 ##########################  
-
-        {
-            "type": "Feature",
-            "properties": {
-                'dwg_type': 'CR',
-                'dwg_no': ['20', [0]],
-                "specifier": '',
-                'as_built': 'none',
-                "tcp": "none",
-                "rlvnt": "none"
-            },
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [-122.435414407026343, 37.723881280933803],
-                            [-122.435289465466511, 37.723822739265231],
-                            [-122.435537588845889, 37.723489861451775],
-                            [-122.435662923759423, 37.723548223254497],
-                            [-122.435414407026343, 37.723881280933803]
-                        ]
-                    ]
-                ]
-            }
-        },
-
         // CR-19 ##########################  
 
         {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['19', [0]],
+                'dwg_no': '19',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_190_000', '1171I_dwg_CR-19.0', ''],
+                    ['layer_1171I_dwg_tile_CR_191_000', '1171I_dwg_CR-19.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1638,14 +1697,50 @@ var json_1171I_plan_boundaries = {
             }
         },
 
+        // CR-20 ##########################  
+
+        {
+            "type": "Feature",
+            "properties": {
+                'dwg_type': 'CR',
+                'dwg_no': '20',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_200_000', '1171I_dwg_CR-20.0', ''],
+                    ['layer_1171I_dwg_tile_CR_201_000', '1171I_dwg_CR-20.1', '']
+                ],
+                'as_built': 'none',
+                "tcp": "none",
+                "rlvnt": "none"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.435414407026343, 37.723881280933803],
+                            [-122.435289465466511, 37.723822739265231],
+                            [-122.435537588845889, 37.723489861451775],
+                            [-122.435662923759423, 37.723548223254497],
+                            [-122.435414407026343, 37.723881280933803]
+                        ]
+                    ]
+                ]
+            }
+        },
+
         // CR-21 ##########################  
 
         {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['21', [0]],
+                'dwg_no': '21',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_210_000', '1171I_dwg_CR-21.0', ''],
+                    ['layer_1171I_dwg_tile_CR_211_000', '1171I_dwg_CR-21.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1681,8 +1776,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['22', [0]],
+                'dwg_no': '22',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_220_000', '1171I_dwg_CR-22.0', ''],
+                    ['layer_1171I_dwg_tile_CR_221_000', '1171I_dwg_CR-22.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1719,8 +1818,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['23', [0]],
+                'dwg_no': '23',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_230_000', '1171I_dwg_CR-23.0', ''],
+                    ['layer_1171I_dwg_tile_CR_231_000', '1171I_dwg_CR-23.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1755,8 +1858,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['24', [0]],
+                'dwg_no': '24',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_240_000', '1171I_dwg_CR-24.0', ''],
+                    ['layer_1171I_dwg_tile_CR_241_000', '1171I_dwg_CR-24.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1801,8 +1908,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['25', [0]],
+                'dwg_no': '25',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_250_000', '1171I_dwg_CR-25.0', ''],
+                    ['layer_1171I_dwg_tile_CR_251_000', '1171I_dwg_CR-25.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1848,8 +1959,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['26', [0]],
+                'dwg_no': '26',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_260_000', '1171I_dwg_CR-26.0', ''],
+                    ['layer_1171I_dwg_tile_CR_261_000', '1171I_dwg_CR-26.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1887,8 +2002,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['27', [0]],
+                'dwg_no': '27',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_270_000', '1171I_dwg_CR-27.0', ''],
+                    ['layer_1171I_dwg_tile_CR_271_000', '1171I_dwg_CR-27.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1924,8 +2043,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['28', [0]],
+                'dwg_no': '28',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_280_001', '1171I_dwg_CR-28.0_rev01', ''],
+                    ['layer_1171I_dwg_tile_CR_281_000', '1171I_dwg_CR-28.1', ''],
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -1967,8 +2090,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['29', [0]],
+                'dwg_no': '29',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_290_000', '1171I_dwg_CR-29.0', ''],
+                    ['layer_1171I_dwg_tile_CR_291_000', '1171I_dwg_CR-29.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2004,8 +2131,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['30', [0]],
+                'dwg_no': '30',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_300_000', '1171I_dwg_CR-30.0', ''],
+                    ['layer_1171I_dwg_tile_CR_301_000', '1171I_dwg_CR-30.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2042,8 +2173,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['31', [0]],
+                'dwg_no': '31',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_310_000', '1171I_dwg_CR-31.0', ''],
+                    ['layer_1171I_dwg_tile_CR_311_000', '1171I_dwg_CR-31.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2087,8 +2222,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['32', [0]],
+                'dwg_no': '32',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_320_000', '1171I_dwg_CR-32.0', ''],
+                    ['layer_1171I_dwg_tile_CR_321_000', '1171I_dwg_CR-32.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2135,8 +2274,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['33', [0]],
+                'dwg_no': '33',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_330_000', '1171I_dwg_CR-33.0', ''],
+                    ['layer_1171I_dwg_tile_CR_331_000', '1171I_dwg_CR-33.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2181,8 +2324,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['34', [0]],
+                'dwg_no': '34',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_340_000', '1171I_dwg_CR-34.0', ''],
+                    ['layer_1171I_dwg_tile_CR_341_000', '1171I_dwg_CR-34.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2219,8 +2366,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['35', [0]],
+                'dwg_no': '35',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_350_000', '1171I_dwg_CR-35.0', ''],
+                    ['layer_1171I_dwg_tile_CR_351_000', '1171I_dwg_CR-35.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2257,8 +2408,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['36', [0]],
+                'dwg_no': '36',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_360_000', '1171I_dwg_CR-36.0', ''],
+                    ['layer_1171I_dwg_tile_CR_361_000', '1171I_dwg_CR-36.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2294,8 +2449,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['37', [0]],
+                'dwg_no': '37',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_370_000', '1171I_dwg_CR-37.0', ''],
+                    ['layer_1171I_dwg_tile_CR_371_000', '1171I_dwg_CR-37.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2327,14 +2486,18 @@ var json_1171I_plan_boundaries = {
             }
         },
 
-        // CR-39 ##########################  
+        // CR-38 ##########################  
 
         {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['39', [0]],
+                'dwg_no': '38',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_380_000', '1171I_dwg_CR-38.0', ''],
+                    ['layer_1171I_dwg_tile_CR_381_000', '1171I_dwg_CR-38.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2378,40 +2541,43 @@ var json_1171I_plan_boundaries = {
 
         // CR-39 ##########################  
 
-        // {
-        //     "type": "Feature",
-        //     "properties": {
-        //         'dwg_type': 'CR',
-        //         'dwg_no': ['39', 0],
-        //         "specifier": '',
-        //         'as_built': 'none',
-        //         "tcp": "none",
-        //         "rlvnt": "none"
-        //     },
-        //     "geometry": {
-        //         "type": "MultiPolygon",
-        //         "coordinates": [
-        //             [
-        //                 [
-        //                     [-122.441069403404839, 37.716344746848826],
-        //                     [-122.441064699211211, 37.716348905890477],
-        //                     [-122.441058888148504, 37.71635087596276],
-        //                     [-122.441053814998526, 37.716351167825316],
-        //                     [-122.441048926326715, 37.716350657065838],
-        //                     [-122.441044037654919, 37.716348759959196],
-        //                     [-122.440765188740698, 37.716222849781737],
-        //                     [-122.440839825198069, 37.716117622017563],
-        //                     [-122.441124931337328, 37.716244309570271],
-        //                     [-122.441130880758678, 37.716249015860612],
-        //                     [-122.441132541062288, 37.716252956010443],
-        //                     [-122.441133371214107, 37.716257224505846],
-        //                     [-122.441132402703658, 37.716260836309445],
-        //                     [-122.441069403404839, 37.716344746848826]
-        //                 ]
-        //             ]
-        //         ]
-        //     }
-        // },
+        {
+            "type": "Feature",
+            "properties": {
+                'dwg_type': 'CR',
+                'dwg_no': '39',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_390_000', '1171I_dwg_CR-39.0', '']
+                ],
+                'as_built': 'none',
+                "tcp": "none",
+                "rlvnt": "none"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.441069403404839, 37.716344746848826],
+                            [-122.441064699211211, 37.716348905890477],
+                            [-122.441058888148504, 37.71635087596276],
+                            [-122.441053814998526, 37.716351167825316],
+                            [-122.441048926326715, 37.716350657065838],
+                            [-122.441044037654919, 37.716348759959196],
+                            [-122.440765188740698, 37.716222849781737],
+                            [-122.440839825198069, 37.716117622017563],
+                            [-122.441124931337328, 37.716244309570271],
+                            [-122.441130880758678, 37.716249015860612],
+                            [-122.441132541062288, 37.716252956010443],
+                            [-122.441133371214107, 37.716257224505846],
+                            [-122.441132402703658, 37.716260836309445],
+                            [-122.441069403404839, 37.716344746848826]
+                        ]
+                    ]
+                ]
+            }
+        },
 
         // CR-40 ##########################  
 
@@ -2419,8 +2585,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['40', [0]],
+                'dwg_no': '40',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_400_000', '1171I_dwg_CR-40.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2457,8 +2626,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['41', [0]],
+                'dwg_no': '41',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_410_000', '1171I_dwg_CR-41.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2503,8 +2675,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['42', [0]],
+                'dwg_no': '42',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_420_000', '1171I_dwg_CR-42.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2541,8 +2716,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['43', [0]],
+                'dwg_no': '43',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_430_000', '1171I_dwg_CR-43.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2588,8 +2766,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['44', [0]],
+                'dwg_no': '44',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_440_000', '1171I_dwg_CR-44.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2620,8 +2801,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['45', [0]],
+                'dwg_no': '45',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_450_000', '1171I_dwg_CR-45.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2658,8 +2842,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['46', [0]],
+                'dwg_no': '46',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_460_000', '1171I_dwg_CR-46.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2706,8 +2893,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'CR',
-                'dwg_no': ['47', [0]],
+                'dwg_no': '47',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_CR_470_000', '1171I_dwg_CR-47.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2756,8 +2946,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['01', [0]],
-                "specifier": '0',
+                'dwg_no': '01',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_01_0_000', '1171I_dwg_SW-01.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2796,8 +2989,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['02', [0]],
-                "specifier": '0',
+                'dwg_no': '02',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_02_0_000', '1171I_dwg_SW-02.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2828,8 +3024,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['03', [0]],
-                "specifier": '0',
+                'dwg_no': '03',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_03_0_000', '1171I_dwg_SW-03.0', ''],
+                    ['', '1171I_dwg_SW-03.1', ''],
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2870,8 +3070,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['04', [0]],
-                "specifier": '0',
+                'dwg_no': '04',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_04_0_000', '1171I_dwg_SW-04.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2912,8 +3115,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['05', [0]],
-                "specifier": '0',
+                'dwg_no': '05',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_05_0_000', '1171I_dwg_SW-05.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -2945,82 +3151,18 @@ var json_1171I_plan_boundaries = {
             }
         },
 
-        // SW-07 ##########################  
+        // SW-06 ##########################  
 
         {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['07', [0]],
-                "specifier": '0',
-                'as_built': 'none',
-                "tcp": "none",
-                "rlvnt": "none"
-            },
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [-122.440380844358486, 37.717577814945798],
-                            [-122.440306471467068, 37.717679899714589],
-                            [-122.440391495411049, 37.717747221439282],
-                            [-122.440278512773702, 37.717890944685358],
-                            [-122.440195538587261, 37.717826347087581],
-                            [-122.439384545172231, 37.718905301183426],
-                            [-122.439137444619647, 37.718788776281592],
-                            [-122.439364005083036, 37.718487151046176],
-                            [-122.439203474143468, 37.718412090446989],
-                            [-122.439305441737872, 37.718266897059841],
-                            [-122.439471155274262, 37.718346053113478],
-                            [-122.440135811214247, 37.717464058750757],
-                            [-122.440380844358486, 37.717577814945798]
-                        ]
-                    ]
-                ]
-            }
-        },
-
-        // SW-08 ##########################  
-
-        {
-            "type": "Feature",
-            "properties": {
-                'dwg_type': 'SW',
-                'dwg_no': ['08', [0]],
-                "specifier": '0',
-                'as_built': 'none',
-                "tcp": "none",
-                "rlvnt": "none"
-            },
-            "geometry": {
-                "type": "MultiPolygon",
-                "coordinates": [
-                    [
-                        [
-                            [-122.439384545172231, 37.718905301183426],
-                            [-122.438374042695102, 37.720225207337585],
-                            [-122.438128387601196, 37.720107620675464],
-                            [-122.438176672129089, 37.720043873731804],
-                            [-122.438070889567555, 37.719993427290554],
-                            [-122.438179321012029, 37.719852313722122],
-                            [-122.438284700482669, 37.71990287413422],
-                            [-122.439137444619647, 37.718788776281592],
-                            [-122.439384545172231, 37.718905301183426]
-                        ]
-                    ]
-                ]
-            }
-        },
-
-        // SW-08 ##########################  
-
-        {
-            "type": "Feature",
-            "properties": {
-                'dwg_type': 'SW',
-                'dwg_no': ['08', [0]],
-                "specifier": '0',
+                'dwg_no': '06',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_06_0_000', '1171I_dwg_SW-06.0', ''],
+                    ['', '1171I_dwg_SW-06.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3062,14 +3204,91 @@ var json_1171I_plan_boundaries = {
             }
         },
 
+        // SW-07 ##########################  
+
+        {
+            "type": "Feature",
+            "properties": {
+                'dwg_type': 'SW',
+                'dwg_no': '07',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_07_0_000', '1171I_dwg_SW-07.0', '']
+                ],
+                'as_built': 'none',
+                "tcp": "none",
+                "rlvnt": "none"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.440380844358486, 37.717577814945798],
+                            [-122.440306471467068, 37.717679899714589],
+                            [-122.440391495411049, 37.717747221439282],
+                            [-122.440278512773702, 37.717890944685358],
+                            [-122.440195538587261, 37.717826347087581],
+                            [-122.439384545172231, 37.718905301183426],
+                            [-122.439137444619647, 37.718788776281592],
+                            [-122.439364005083036, 37.718487151046176],
+                            [-122.439203474143468, 37.718412090446989],
+                            [-122.439305441737872, 37.718266897059841],
+                            [-122.439471155274262, 37.718346053113478],
+                            [-122.440135811214247, 37.717464058750757],
+                            [-122.440380844358486, 37.717577814945798]
+                        ]
+                    ]
+                ]
+            }
+        },
+
+        // SW-08 ##########################  
+
+        {
+            "type": "Feature",
+            "properties": {
+                'dwg_type': 'SW',
+                'dwg_no': '08',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_08_0_000', '1171I_dwg_SW-08.0', '']
+                ],
+                'as_built': 'none',
+                "tcp": "none",
+                "rlvnt": "none"
+            },
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                    [
+                        [
+                            [-122.439384545172231, 37.718905301183426],
+                            [-122.438374042695102, 37.720225207337585],
+                            [-122.438128387601196, 37.720107620675464],
+                            [-122.438176672129089, 37.720043873731804],
+                            [-122.438070889567555, 37.719993427290554],
+                            [-122.438179321012029, 37.719852313722122],
+                            [-122.438284700482669, 37.71990287413422],
+                            [-122.439137444619647, 37.718788776281592],
+                            [-122.439384545172231, 37.718905301183426]
+                        ]
+                    ]
+                ]
+            }
+        },
+
         // SW-09 ##########################  
 
         {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['09', [0]],
-                "specifier": '0',
+                'dwg_no': '09',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_09_0_000', '1171I_dwg_SW-09.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3100,8 +3319,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['10', [0]],
-                "specifier": '0',
+                'dwg_no': '10',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_10_0_000', '1171I_dwg_SW-10.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3136,8 +3358,13 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['11', [0]],
-                "specifier": '0',
+                'dwg_no': '11',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_11_0_000', '1171I_dwg_SW-11.0', ''],
+                    ['', '1171I_dwg_SW-11.1', '']
+
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3196,8 +3423,13 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['12', [0]],
-                "specifier": '0',
+                'dwg_no': '12',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_12_0_000', '1171I_dwg_SW-12.0', ''],
+                    ['', '1171I_dwg_SW-12.1', '']
+
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3236,8 +3468,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['13', [0]],
-                "specifier": '0',
+                'dwg_no': '13',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_13_0_000', '1171I_dwg_SW-13.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3276,8 +3511,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['14', [0]],
-                "specifier": '0',
+                'dwg_no': '14',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_14_0_000', '1171I_dwg_SW-14.0', ''],
+                    ['', '1171I_dwg_SW-14.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3310,8 +3549,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['15', [0]],
-                "specifier": '0',
+                'dwg_no': '15',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_15_0_000', '1171I_dwg_SW-15.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3354,8 +3596,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['16', [0]],
+                'dwg_no': '16',
                 "specifier": 'a',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_16_a_000', '1171I_dwg_SW-16.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3390,8 +3635,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'SW',
-                'dwg_no': ['16', [0]],
+                'dwg_no': '16',
                 "specifier": 'b',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_SW_16_b_000', '1171I_dwg_SW-16.0', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3426,8 +3674,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['01', [0]],
+                'dwg_no': '01',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_01_000', '1171I_dwg_U-01', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3466,8 +3717,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['02', [0]],
+                'dwg_no': '02',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_02_000', '1171I_dwg_U-02', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3498,8 +3752,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['03', [0]],
+                'dwg_no': '03',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_03_000', '1171I_dwg_U-03', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3538,8 +3795,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['04', [0]],
+                'dwg_no': '04',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_04_000', '1171I_dwg_U-04', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3578,8 +3838,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['05', [0]],
+                'dwg_no': '05',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_05_000', '1171I_dwg_U-05', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3618,8 +3881,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['06', [0]],
+                'dwg_no': '06',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_06_000', '1171I_dwg_U-06', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3657,8 +3923,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['07', [0]],
+                'dwg_no': '07',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_07_000', '1171I_dwg_U-07', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3721,8 +3990,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['08', [0]],
+                'dwg_no': '08',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_08_000', '1171I_dwg_U-08', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3770,8 +4042,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['09', [0]],
+                'dwg_no': '09',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_09_000', '1171I_dwg_U-09', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3806,8 +4081,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['10', [0]],
+                'dwg_no': '10',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_10_000', '1171I_dwg_U-10', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3838,8 +4116,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['11', [0]],
+                'dwg_no': '11',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_11_000', '1171I_dwg_U-11', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3870,8 +4151,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['12', [0]],
+                'dwg_no': '12',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_12_000', '1171I_dwg_U-12', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -3906,7 +4190,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['13', [0]],
+                'dwg_no': '13',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_13_000', '1171I_dwg_U-13', '']
+                ],
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
@@ -3966,8 +4254,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['14', [0]],
+                'dwg_no': '14',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_14_000', '1171I_dwg_U-14', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4006,8 +4297,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['15', [0]],
+                'dwg_no': '15',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_15_000', '1171I_dwg_U-15', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4046,8 +4340,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['16', [0]],
+                'dwg_no': '16',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_16_000', '1171I_dwg_U-16', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4080,8 +4377,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['17', [0]],
+                'dwg_no': '17',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_17_000', '1171I_dwg_U-17', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4124,8 +4424,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['18', [0]],
+                'dwg_no': '18',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_18_000', '1171I_dwg_U-18', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4172,8 +4475,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['19', [0]],
+                'dwg_no': '19',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_19_000', '1171I_dwg_U-19', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4208,8 +4514,11 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'U',
-                'dwg_no': ['20', [0]],
+                'dwg_no': '20',
                 "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_U_20_000', '1171I_dwg_U-20', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4248,8 +4557,13 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['01', [0]],
-                "specifier": '0',
+                'dwg_no': '01',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_E_010_0_000', '1171I_dwg_E-01.0', ''],
+                    ['', '1171I_dwg_E-01.1', '']
+
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4298,8 +4612,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['02', [0]],
-                "specifier": '0',
+                'dwg_no': '02',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_E_020_0_000', '1171I_dwg_E-02.0', ''],
+                    ['', '1171I_dwg_E-02.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4346,8 +4664,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['03', [0]],
-                "specifier": '0',
+                'dwg_no': '03',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_E_030_0_000', '1171I_dwg_E-03.0', ''],
+                    ['', '1171I_dwg_E-03.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4396,8 +4718,12 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['04', [0]],
-                "specifier": '0',
+                'dwg_no': '04',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_E_040_0_000', '1171I_dwg_E-04.0', ''],
+                    ['', '1171I_dwg_E-04.1', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4446,8 +4772,15 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['05', [0]],
-                "specifier": '0',
+                'dwg_no': '05',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_E_050_a_000', '1171I_dwg_E-05.0', ''],
+                    ['layer_1171I_dwg_tile_E_050_b_000', '', 'South Corner Detail'],
+                    ['', '1171I_dwg_E-05.1', ''],
+                    ['', '1171I_dwg_E-05.2', '']
+
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"
@@ -4494,8 +4827,13 @@ var json_1171I_plan_boundaries = {
             "type": "Feature",
             "properties": {
                 'dwg_type': 'E',
-                'dwg_no': ['06', [0]],
-                "specifier": '0',
+                'dwg_no': '06',
+                "specifier": '',
+                "pop_deets": [
+                    ['layer_1171I_dwg_tile_E_060_0_000', '1171I_dwg_E-06.0', ''],
+                    ['', '1171I_dwg_E-06.1', ''],
+                    ['', '1171I_dwg_E-06.2', '']
+                ],
                 'as_built': 'none',
                 "tcp": "none",
                 "rlvnt": "none"

@@ -2,13 +2,17 @@ var overlay_menu_subsection_content_sw = "";
 var overlay_menu_subsection_content_u = "";
 var overlay_menu_subsection_content_r = "";
 var overlay_menu_subsection_content_cr = "";
+var overlay_menu_subsection_content_e = "";
+
+
 
 for (var ii = 0; ii < layer_filter('SW', json_1171I_plan_boundaries)['features'].length; ii++) {
   overlay_menu_subsection_content_sw += popup_sheet_entry_creator('_twin_menu',
     layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.dwg_type,
     layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.dwg_no,
-    layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.specifier,    
-                                                                 ) + '<br>';
+    layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.specifier,
+    layer_filter('SW', json_1171I_plan_boundaries)['features'][ii].properties.pop_deets,
+  ) + '<br>';
 }
 
 for (var ii = 0; ii < layer_filter('U', json_1171I_plan_boundaries)['features'].length; ii++) {
@@ -16,23 +20,34 @@ for (var ii = 0; ii < layer_filter('U', json_1171I_plan_boundaries)['features'].
     layer_filter('U', json_1171I_plan_boundaries)['features'][ii].properties.dwg_type,
     layer_filter('U', json_1171I_plan_boundaries)['features'][ii].properties.dwg_no,
     layer_filter('U', json_1171I_plan_boundaries)['features'][ii].properties.specifier,    
+    layer_filter('U', json_1171I_plan_boundaries)['features'][ii].properties.pop_deets    
                                                                  ) + '<br>';
 }
 
-for (var ii = 0; ii < layer_filter('R', json_1171I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_r += popup_sheet_entry_creator('_twin_menu',
-    layer_filter('R', json_1171I_plan_boundaries)['features'][ii].properties.dwg_type,
-    layer_filter('R', json_1171I_plan_boundaries)['features'][ii].properties.dwg_no,
-    layer_filter('R', json_1171I_plan_boundaries)['features'][ii].properties.specifier
-                                                                 ) + '<br>';
-}
+// for (var ii = 0; ii < layer_filter('R', json_1171I_plan_boundaries)['features'].length; ii++) {
+//   overlay_menu_subsection_content_r += popup_sheet_entry_creator('_twin_menu',
+//     layer_filter('R', json_1171I_plan_boundaries)['features'][ii].properties.dwg_type,
+//     layer_filter('R', json_1171I_plan_boundaries)['features'][ii].properties.dwg_no,
+//     layer_filter('R', json_1171I_plan_boundaries)['features'][ii].properties.specifier
+//                                                                  ) + '<br>';
+// }
 
 for (var ii = 0; ii < layer_filter('CR', json_1171I_plan_boundaries)['features'].length; ii++) {
   overlay_menu_subsection_content_cr += popup_sheet_entry_creator('_twin_menu',
     layer_filter('CR', json_1171I_plan_boundaries)['features'][ii].properties.dwg_type,
     layer_filter('CR', json_1171I_plan_boundaries)['features'][ii].properties.dwg_no,
-    layer_filter('CR', json_1171I_plan_boundaries)['features'][ii].properties.specifier
-                                                                 ) + '<br>';
+    layer_filter('CR', json_1171I_plan_boundaries)['features'][ii].properties.specifier,
+    layer_filter('CR', json_1171I_plan_boundaries)['features'][ii].properties.pop_deets
+  ) + '<br>';
+}
+
+for (var ii = 0; ii < layer_filter('E', json_1171I_plan_boundaries)['features'].length; ii++) {
+  overlay_menu_subsection_content_e += popup_sheet_entry_creator('_twin_menu',
+    layer_filter('E', json_1171I_plan_boundaries)['features'][ii].properties.dwg_type,
+    layer_filter('E', json_1171I_plan_boundaries)['features'][ii].properties.dwg_no,
+    layer_filter('E', json_1171I_plan_boundaries)['features'][ii].properties.specifier,
+    layer_filter('E', json_1171I_plan_boundaries)['features'][ii].properties.pop_deets
+  ) + '<br>';
 }
 
 var menu_card_sheet_overlay_content =
@@ -128,6 +143,26 @@ var menu_card_sheet_overlay_content =
                <div class="card-body">\
                  <div class="scroll_card_sub">' +
   overlay_menu_subsection_content_cr +
+  '</div>\
+               </div>\
+             </div>\
+           </div>\
+  \
+           <div class="card">\
+             <div class="card-header p-0" id="sheet_overlays_e">\
+               <h2 class="mb-0">\
+                 <button class="btn btn-link collapsed" type="button"\
+                         data-toggle="collapse" data-target="#heading_sheet_overlays_0_collapse_e"\
+                         aria-expanded="false" aria-controls="heading_sheet_overlays_0_collapse_e">\
+                   <strong>E - Electrical</strong>\
+                 </button>\
+               </h2>\
+             </div>\
+             <div id="heading_sheet_overlays_0_collapse_e" class="collapse"\
+                      aria-labelledby="sheet_overlays_e" data-parent="#heading_sheet_overlays_0">\
+               <div class="card-body">\
+                 <div class="scroll_card_sub">' +
+  overlay_menu_subsection_content_e +
   '</div>\
                </div>\
              </div>\
