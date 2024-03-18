@@ -1,226 +1,328 @@
 var project_tcp_array = [
 
- { 
-  'numb': '001.00', 'desc': '', 'rlvn': ['SW_01', 'SW_06']
-  }, 
-   { 
-  'numb': '002.00', 'desc': '', 'rlvn': ['SW_01']
-  }, 
-     { 
-  'numb': '003.00', 'desc': '', 'rlvn': ['SW_01', 'SW_02', 'SW_03']
-  }, 
-// { 
-//  'numb': '002', 'desc': 'CIPL - SVN between 15th and 16th', 'rlvn': ['SW_03', 'SW_04']
-//  }, 
-//  { 
-//  'numb': '002.1', 'desc': 'PCO 3 Spot Repair - SVN and Howard', 'rlvn': ['SW_06']
-//  }, 
-// { 
-//  'numb': '003', 'desc': 'CIPL - SVN between 14th and 15th', 'rlvn': ['SW_04', 'SW_05']
-//  }, 
-// { 
-//  'numb': '004', 'desc': 'SVN and Erie', 'rlvn': ['SW_05']
-//  }, 
-// { 
-//  'numb': '005', 'desc': 'SVN from Howard to 12th - West', 'rlvn': ['SW_06']
-//  }, 
-// { 
-//  'numb': '006', 'desc': 'SVN from Howard to 12th - East', 'rlvn': ['SW_06']
-//  }, 
-// { 
-//  'numb': '007', 'desc': 'CIPL - 12th from Kissling to Folsom', 'rlvn': ['SW_07']
-//  },
-//  { 
-//  'numb': '007.1', 'desc': 'CIPL - 12th from Kissling to Folsom', 'rlvn': ['SW_07']
-//  },  
-// { 
-//  'numb': '008', 'desc': 'Bryant from Beale to Main', 'rlvn': ['SW_10']
-//  }, 
-// { 
-//  'numb': '009', 'desc': 'Bryant from Beale to Main', 'rlvn': ['SW_10']
-//  }, 
-// { 
-//  'numb': '010', 'desc': 'Bryant and Beale - South Corner', 'rlvn': ['SW_10']
-//  }, 
-// { 
-//  'numb': '011', 'desc': '10th and Sheridan', 'rlvn': ['SW_11_b']
-//  }, 
-// { 
-//  'numb': '012', 'desc': 'Brussels and Wilde', 'rlvn': ['SW_08']
-//  }, 
-// { 
-//  'numb': '013', 'desc': 'Brussels from Campbell to Wilde', 'rlvn': ['SW_08']
-//  }, 
-// { 
-//  'numb': '014', 'desc': 'Campbell from Brussels to Goettingen', 'rlvn': ['SW_09']
-//  }, 
-// { 
-//  'numb': '015', 'desc': 'Leland from Sawyer to Loehr', 'rlvn': ['SW_01']
-//  }, 
-// { 
-//  'numb': '016', 'desc': 'Leland from Delta to Schwerin', 'rlvn': ['SW_02']
-//  }, 
-// { 
-//  'numb': '017', 'desc': 'Leland from Elliot to Rey', 'rlvn': ['SW_02']
-//  }, 
-// { 
-//  'numb': '018', 'desc': 'Visitacion from Hahn to Sawyer', 'rlvn': ['SW_11_a']
-//  }, 
-// { 
-//  'numb': '019', 'desc': '', 'rlvn': ['CR_01']
-//  }, 
-// { 
-//  'numb': '020', 'desc': '', 'rlvn': ['CR_02']
-//  }, 
-// { 
-//  'numb': '021', 'desc': '', 'rlvn': ['CR_03']
-//  }, 
-// { 
-//  'numb': '022', 'desc': '', 'rlvn': ['CR_04']
-//  }, 
-// { 
-//  'numb': '023', 'desc': '', 'rlvn': ['CR_05_a', 'CR_05_b']
-//  }, 
-// { 
-//  'numb': '024', 'desc': '', 'rlvn': ['CR_06']
-//  }, 
-// { 
-//  'numb': '025', 'desc': '', 'rlvn': ['CR_09']
-//  }, 
-// { 
-//  'numb': '026', 'desc': '', 'rlvn': ['CR_10']
-//  }, 
-// { 
-//  'numb': '027', 'desc': '', 'rlvn': ['CR_11', 'CR_12', 'CR_23']
-//  }, 
-// { 
-//  'numb': '028', 'desc': '', 'rlvn': ['CR_13', 'CR_14', 'CR_15']
-//  }, 
-// { 
-//  'numb': '029', 'desc': '', 'rlvn': ['CR_13', 'CR_14', 'CR_15']
-//  }, 
-// { 
-//  'numb': '030', 'desc': '', 'rlvn': ['CR_17', 'CR_18']
-//  }, 
-// { 
-//  'numb': '031', 'desc': '', 'rlvn': ['CR_19']
-//  }, 
-// { 
-//  'numb': '032', 'desc': '', 'rlvn': ['CR_20', 'CR_21']
-//  }, 
-// { 
-//  'numb': '033', 'desc': '', 'rlvn': ['CR_07', 'CR_08_b']
-//  }, 
-// { 
-//  'numb': '034', 'desc': '', 'rlvn': ['CR_07']
-//  }, 
-// { 
-//  'numb': '035', 'desc': '', 'rlvn': ['CR_16']
-//  }, 
-// { 
-//  'numb': '036', 'desc': '', 'rlvn': ['CR_22']
-//  }, 
-// { 
-//  'numb': '037A', 'desc': '', 'rlvn': ['R_01_a', 'R_01_b']
-//  }, 
-// { 
-//  'numb': '037B', 'desc': '', 'rlvn': ['R_01_a', 'R_01_b']
-//  }, 
-// { 
-//  'numb': '038A', 'desc': '', 'rlvn': ['R_01_b', 'R_02_a', 'R_02_b']
-//  }, 
-// { 
-//  'numb': '038B', 'desc': '', 'rlvn': ['R_02_a', 'R_02_b']
-//  }, 
-// { 
-//  'numb': '039A', 'desc': '', 'rlvn': ['R_02_b', 'R_03_a', 'R_03_b']
-//  }, 
-// { 
-//  'numb': '039B', 'desc': '', 'rlvn': ['R_03_a']
-//  }, 
-// { 
-//  'numb': '040', 'desc': '', 'rlvn': ['R_03_b', 'R_04_a']
-//  }, 
-//  { 
-//  'numb': '041', 'desc': '', 'rlvn': ['R_04_b', 'R_05']
-//  }, 
-// { 
-//  'numb': '042', 'desc': '', 'rlvn': ['R_05']
-//  }, 
-// { 
-//  'numb': '042A', 'desc': 'Bernice and Isis Intersections', 'rlvn': ['R_05']
-//  }, 
-// { 
-//  'numb': '043', 'desc': '', 'rlvn': ['R_06_a', 'R_06_b']
-//  },
-// { 
-//  'numb': '044', 'desc': '', 'rlvn': ['R_06_a', 'R_06_b']
-//  },
-// { 
-//  'numb': '045', 'desc': '', 'rlvn': ['R_07_b', 'R_08_a', 'R_08_b']
-//  },
-// { 
-//  'numb': '046', 'desc': '', 'rlvn': ['R_07_a', 'R_07_b']
-//  },
-// { 
-//  'numb': '047', 'desc': '', 'rlvn': ['R_07_a', 'R_07_b']
-//  },
-// { 
-//  'numb': '048', 'desc': '', 'rlvn': ['R_09_a', 'R_09_b']
-//  }, 
-// { 
-//  'numb': '049', 'desc': '', 'rlvn': ['R_09_a', 'R_09_b']
-//  }, 
-//  { 
-//  'numb': '050', 'desc': '', 'rlvn': ['R_09_a']
-//  }, 
-// { 
-//  'numb': '051', 'desc': '', 'rlvn': ['R_10_a', 'R_10_b']
-//  }, 
-// { 
-//  'numb': '052', 'desc': '', 'rlvn': ['R_10_b', 'R_11_a', 'R_11_b']
-//  }, 
-// { 
-//  'numb': '053', 'desc': '', 'rlvn': ['R_12_a', 'R_12_b']
-//  }, 
-// { 
-//  'numb': '054', 'desc': '', 'rlvn': ['R_12_a', 'R_12_b']
-//  }, 
-// { 
-//  'numb': '055', 'desc': '', 'rlvn': ['R_13_a', 'R_13_b']
-//  }, 
-// { 
-//  'numb': '056', 'desc': '', 'rlvn': ['R_11_a', 'R_11_b', 'R_14']
-//  }, 
-// { 
-//  'numb': '057', 'desc': '', 'rlvn': ['R_14', 'R_15']
-//  }, 
-// { 
-//  'numb': '058', 'desc': 'PSP - 10th St from Market to Folsom', 'rlvn': ['R_01_a', 'R_01_b', 'R_02_a', 'R_02_b']
-//  }, 
-// { 
-//  'numb': '059', 'desc': 'PSP - 10th St from Folsom to Division', 'rlvn': ['SW_11_b', 'R_02_b', 'R_03_a', 'R_03_b', 'R_04_a']
-//  }, 
-// { 
-//  'numb': '060', 'desc': 'PSP - 12th St / Bryant St', 'rlvn': ['SW_07', 'SW_10', 'R_04_b', 'R_05', 'R_09_a', 'R_09_b']
-//  }, 
-// { 
-//  'numb': '061', 'desc': 'PSP - Leland / Visitacion', 'rlvn': ['SW_01', 'SW_02', 'SW_11_a', 'R_10_a', 'R_10_b', 'R_11_a', 'R_11_b', 'R_12_a', 'R_12_b']
-//  }, 
-// { 
-//  'numb': '062', 'desc': 'PSP - Velasco, Wilde, Campbell and SVN', 'rlvn': ['SW_03', 'SW_08', 'SW_09', 'R_08_b', 'R_13_a', 'R_13_b', 'R_14', 'R_15']
-//  }, 
-// { 
-//  'numb': '063', 'desc': 'PSP - SVN from 14th to Mission', 'rlvn': ['SW_04', 'SW_05', 'SW_06', 'R_06_a', 'R_06_b', 'R_07_a']
-//  },
-//  { 
-//  'numb': '064', 'desc': '', 'rlvn': ['R_09_a']
-//  }, 
-// { 
-//  'numb': '065', 'desc': '', 'rlvn': ['CR_08_a']
-//  }
-  
- 
- 
- 
- ]
+   {
+      'numb': '001.00', 'desc': '', 'rlvn': ['SW_01', 'SW_06']
+   },
+   {
+      'numb': '002.00', 'desc': '', 'rlvn': ['SW_01']
+   },
+   {
+      'numb': '003.00', 'desc': '', 'rlvn': ['SW_01', 'SW_02', 'SW_03']
+   },
+   {
+      'numb': '004.00', 'desc': '', 'rlvn': ['SW_03']
+   },
+   {
+      'numb': '005.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '006.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '007.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '008.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '009.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '010.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '011.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '012.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '013.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '014.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '015.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '016.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '027.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '030.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '031.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '032.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '033.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '034.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '035.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '036.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '037.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '038.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '039.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '040.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '041.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '042.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '043.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '044.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '045.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '046.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '048.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '049.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '050.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '051.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '052.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '053.01', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '054.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '055.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '056.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '057.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '058.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '059.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '060.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '061.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '062.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '064.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '065.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '066.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '067.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '068.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '069.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '070.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '071.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '072.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '073.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '075.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '076.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '077.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '078.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '079.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '080.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '080A.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '081.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '082.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '083.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '083A.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '084.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '085.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '086.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '087.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '094.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '095.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '096.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '097.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '098.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '099.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '100.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '125.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '126.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '127.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '128.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '129.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '130.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '131.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '132.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '133.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '134.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '135.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '136.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '137.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '138.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '139.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '140.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '141.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '170.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '171.01', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '172.01', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '173.01', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '174.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '175.01', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '176.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '177.01', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '184.00', 'desc': '', 'rlvn': []
+   },
+   {
+      'numb': '189.02', 'desc': '', 'rlvn': []
+   }
+
+]

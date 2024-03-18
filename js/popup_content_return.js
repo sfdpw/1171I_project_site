@@ -51,7 +51,7 @@ function return_plan_boundary_popup(feature) {
             </button>\
           </h2>\
         </div>\
-        <div id="PLAN_collapse_03" class="collapse show" aria-labelledby="PLAN_TCP"\
+        <div id="PLAN_collapse_03" class="collapse" aria-labelledby="PLAN_TCP"\
                                    data-parent="#PLAN_popup">\
           <div class="card-body">' + 
             popup_tcp_entry_creator(feature) + 

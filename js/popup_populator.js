@@ -328,38 +328,9 @@ function popup_tcp_entry_creator(feature) {
 
     }
 
-
-
-    // var tcp_desc = '';
-    // var specifier_suffix = '';
-
-    // if (feature.properties.specifier != '') {
-    //     specifier_suffix = '_'.concat(feature.properties.specifier);
-    // }
-
-    // for (const tcp of project_tcp_array) {
-
-    //     tcp_desc = '';
-
-    //     for (const rvln_bndry of tcp.rlvn) {
-
-    //         if (rvln_bndry == feature.properties.dwg_type.concat('_', feature.properties.dwg_no[0], specifier_suffix)) {
-
-    //             if (tcp.desc != '') {
-    //                 tcp_desc = ' - '.concat(tcp.desc);
-    //             }
-
-    //             output_string += "<a href=\".\\tcps\\1171I_TCP_".concat(tcp.numb, ".pdf\" target=\"_blank\">TCP ", tcp.numb, tcp_desc, '<\/a><br>');
-
-    //         }
-
-    //     }
-
-    // }
-
-    // if (output_string == '') {
-    //     output_string = 'none';
-    // }
+    if (output_string == '') {
+        output_string = 'none';
+    }
 
     return output_string
 
