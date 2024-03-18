@@ -287,26 +287,40 @@ function popup_as_built_entry_creator(feature) {
 function popup_tcp_entry_creator(feature) {
 
     var output_string = '';
-    var tcp_desc = '';
-    var specifier_suffix = '';
+
+    var sheet_id = feature.properties.dwg_type.concat(
+        '_', feature.properties.dwg_no
+    );
 
     if (feature.properties.specifier != '') {
-        specifier_suffix = '_'.concat(feature.properties.specifier);
+
+        sheet_id = sheet_id.concat('_', feature.properties.specifier);
+
     }
+
+    //output_string = sheet_id;
 
     for (const tcp of project_tcp_array) {
 
-        tcp_desc = '';
+        var tcp_desc = '';
 
-        for (const rvln_bndry of tcp.rlvn) {
+        if (tcp.desc != '') {
 
-            if (rvln_bndry == feature.properties.dwg_type.concat('_', feature.properties.dwg_no[0], specifier_suffix)) {
+            tcp_desc = ' - '.concat(tcp.desc);
 
-                if (tcp.desc != '') {
-                    tcp_desc = ' - '.concat(tcp.desc);
-                }
+        }
 
-                output_string += "<a href=\".\\tcps\\1171I_TCP_".concat(tcp.numb, ".pdf\" target=\"_blank\">TCP ", tcp.numb, tcp_desc, '<\/a><br>');
+        for (const tcp_relevancy of tcp.rlvn) {
+
+            if (tcp_relevancy == sheet_id) {
+
+                output_string = output_string.concat(
+                    '<a href=\".\\tcps\\1171I_tcp_',
+                    tcp.numb,
+                    ".pdf\" target=\"_blank\">TCP ",
+                    tcp.numb,
+                    tcp_desc,
+                    '<\/a><br>');
 
             }
 
@@ -314,9 +328,38 @@ function popup_tcp_entry_creator(feature) {
 
     }
 
-    if (output_string == '') {
-        output_string = 'none';
-    }
+
+
+    // var tcp_desc = '';
+    // var specifier_suffix = '';
+
+    // if (feature.properties.specifier != '') {
+    //     specifier_suffix = '_'.concat(feature.properties.specifier);
+    // }
+
+    // for (const tcp of project_tcp_array) {
+
+    //     tcp_desc = '';
+
+    //     for (const rvln_bndry of tcp.rlvn) {
+
+    //         if (rvln_bndry == feature.properties.dwg_type.concat('_', feature.properties.dwg_no[0], specifier_suffix)) {
+
+    //             if (tcp.desc != '') {
+    //                 tcp_desc = ' - '.concat(tcp.desc);
+    //             }
+
+    //             output_string += "<a href=\".\\tcps\\1171I_TCP_".concat(tcp.numb, ".pdf\" target=\"_blank\">TCP ", tcp.numb, tcp_desc, '<\/a><br>');
+
+    //         }
+
+    //     }
+
+    // }
+
+    // if (output_string == '') {
+    //     output_string = 'none';
+    // }
 
     return output_string
 
