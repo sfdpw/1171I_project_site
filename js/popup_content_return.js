@@ -35,7 +35,7 @@ function return_plan_boundary_popup(feature) {
         </div>\
         <div id="PLAN_collapse_02" class="collapse" aria-labelledby="PLAN_AB"\
                                    data-parent="#PLAN_popup">\
-          <div class="card-body">' + 'as_built' + 
+          <div class="card-body">' + 'none' + 
             //popup_as_built_entry_creator(feature) +
          '</div>\
         </div>\
@@ -71,8 +71,8 @@ function return_plan_boundary_popup(feature) {
         </div>\
         <div id="PLAN_collapse_04" class="collapse" aria-labelledby="PLAN_relevant"\
                                    data-parent="#PLAN_popup">\
-          <div class="card-body">' + 'rlvnt' +
-           // feature.properties.rlvnt + 
+          <div class="card-body">' + 
+            feature.properties.rlvnt + 
          '</div>\
         </div>\
       </div>\

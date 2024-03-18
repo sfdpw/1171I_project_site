@@ -22,7 +22,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -74,7 +74,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -113,7 +113,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -148,7 +148,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -183,7 +183,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -222,7 +222,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -285,7 +285,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -328,7 +328,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -371,7 +371,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -408,7 +408,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -455,7 +455,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -502,7 +502,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -541,7 +541,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -580,7 +580,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -623,7 +623,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -658,7 +658,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -701,7 +701,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -740,7 +740,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -783,7 +783,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -822,7 +822,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -876,8 +876,6 @@ var json_1171I_plan_boundaries = {
             }
         },
 
-
-
         // CR-01 ##########################  
 
         {
@@ -892,7 +890,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -942,7 +940,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -994,7 +992,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1046,7 +1044,8 @@ var json_1171I_plan_boundaries = {
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1102,7 +1101,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1150,7 +1150,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1203,7 +1204,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1247,7 +1249,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1291,7 +1294,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1335,7 +1339,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1375,7 +1380,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1415,7 +1421,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1457,7 +1464,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1506,7 +1514,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1556,7 +1565,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1599,7 +1609,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1638,7 +1649,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1684,7 +1696,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1716,7 +1729,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1771,7 +1785,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1803,7 +1818,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1844,7 +1860,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1886,7 +1903,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1926,7 +1944,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1976,7 +1995,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2027,7 +2047,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2070,7 +2091,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2111,7 +2133,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2158,7 +2181,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2199,7 +2223,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2241,7 +2266,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2290,7 +2316,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2342,7 +2369,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2392,7 +2420,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2434,7 +2463,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2476,7 +2506,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2517,7 +2548,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2560,7 +2592,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2612,7 +2645,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2652,7 +2686,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2693,7 +2728,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2742,7 +2778,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2783,7 +2820,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2829,11 +2867,13 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '44',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_CR_440_000', '1171I_dwg_CR-44.0', '']
+                    ['layer_1171I_dwg_tile_CR_440_000', '1171I_dwg_CR-44.0', ''],
+                    ['', '1171I_dwg_CR-44.1', 'Handrail Details'],
+                    ['', '1171I_dwg_CR-44.2', 'Handrail Details']
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2868,7 +2908,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2909,7 +2950,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2960,7 +3002,8 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_cr)
+
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3013,7 +3056,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3056,7 +3099,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3092,7 +3135,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3137,7 +3180,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3182,7 +3225,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3225,7 +3268,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3277,7 +3320,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3316,7 +3359,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3351,7 +3394,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3386,7 +3429,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3427,7 +3470,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3492,7 +3535,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3535,7 +3578,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3579,7 +3622,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3616,7 +3659,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3663,7 +3706,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3702,7 +3745,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_sw)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4620,8 +4663,8 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '01',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_010_0_000', '1171I_dwg_E-01.0', ''],
-                    ['', '1171I_dwg_E-01.1', '']
+                    ['layer_1171I_dwg_tile_E_010_0_000', '1171I_dwg_E-01.0', 'Electric Plan, Pole and Equipment Schedule'],
+                    ['', '1171I_dwg_E-01.1', 'Conduit and Wiring Schedule']
 
                 ],
                 'as_built': 'none',
@@ -4675,8 +4718,8 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '02',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_020_0_000', '1171I_dwg_E-02.0', ''],
-                    ['', '1171I_dwg_E-02.1', '']
+                    ['layer_1171I_dwg_tile_E_020_0_000', '1171I_dwg_E-02.0', 'Electric Plan, Pole and Equipment Schedule'],
+                    ['', '1171I_dwg_E-02.1', 'Conduit and Wiring Schedule']
                 ],
                 'as_built': 'none',
                 "tcp": "none",
@@ -4727,8 +4770,8 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '03',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_030_0_000', '1171I_dwg_E-03.0', ''],
-                    ['', '1171I_dwg_E-03.1', '']
+                    ['layer_1171I_dwg_tile_E_030_0_000', '1171I_dwg_E-03.0', 'Electric Plan, Pole and Equipment Schedule'],
+                    ['', '1171I_dwg_E-03.1', 'Conduit and Wiring Schedule']
                 ],
                 'as_built': 'none',
                 "tcp": "none",
@@ -4781,8 +4824,8 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '04',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_040_0_000', '1171I_dwg_E-04.0', ''],
-                    ['', '1171I_dwg_E-04.1', '']
+                    ['layer_1171I_dwg_tile_E_040_0_000', '1171I_dwg_E-04.0', 'Electric Plan, Pole and Equipment Schedule'],
+                    ['', '1171I_dwg_E-04.1', 'Conduit and Wiring Schedule']
                 ],
                 'as_built': 'none',
                 "tcp": "none",
@@ -4835,10 +4878,10 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '05',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_050_a_000', '1171I_dwg_E-05.0', ''],
-                    ['layer_1171I_dwg_tile_E_050_b_000', '', 'South Corner Detail'],
-                    ['', '1171I_dwg_E-05.1', ''],
-                    ['', '1171I_dwg_E-05.2', '']
+                    ['layer_1171I_dwg_tile_E_050_a_000', '1171I_dwg_E-05.0', 'Electric Plan'],
+                    //['layer_1171I_dwg_tile_E_050_b_000', '', 'South Corner Detail'],
+                    ['', '1171I_dwg_E-05.1', 'Pole and Equipment Schedule'],
+                    ['', '1171I_dwg_E-05.2', 'Conduit and Wiring Schedule']
 
                 ],
                 'as_built': 'none',
@@ -4890,9 +4933,9 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '06',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_060_0_000', '1171I_dwg_E-06.0', ''],
-                    ['', '1171I_dwg_E-06.1', ''],
-                    ['', '1171I_dwg_E-06.2', '']
+                    ['layer_1171I_dwg_tile_E_060_0_000', '1171I_dwg_E-06.0', 'Electric Plan'],
+                    ['', '1171I_dwg_E-06.1', 'Pole and Equipment Schedule'],
+                    ['', '1171I_dwg_E-06.2', 'Conduit and Wiring Schedule']
                 ],
                 'as_built': 'none',
                 "tcp": "none",
@@ -5458,6 +5501,9 @@ var json_1171I_plan_boundaries = {
                 "pop_deets": [
                     ['layer_1171I_dwg_tile_MA_144_000', '1171I_dwg_MA-14.4', '']
                 ],
+                'as_built': 'none',
+                "tcp": "none",
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_ma)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -5492,6 +5538,9 @@ var json_1171I_plan_boundaries = {
                 "pop_deets": [
                     ['layer_1171I_dwg_tile_MA_154_000', '1171I_dwg_MA-15.4', '']
                 ],
+                'as_built': 'none',
+                "tcp": "none",
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_ma)
             },
             "geometry": {
                 "type": "MultiPolygon",

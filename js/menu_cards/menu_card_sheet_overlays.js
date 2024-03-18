@@ -183,7 +183,7 @@ var menu_card_sheet_overlay_content =
                 <button class="btn btn-link collapsed" type="button"\
                         data-toggle="collapse" data-target="#heading_sheet_overlays_0_collapse_ma"\
                         aria-expanded="false" aria-controls="heading_sheet_overlays_0_collapse_ma">\
-                  <strong>MA - Mechanical</strong>\
+                  <strong>MA - AWSS SMPs</strong>\
                 </button>\
               </h2>\
             </div>\

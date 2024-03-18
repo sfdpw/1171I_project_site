@@ -67,8 +67,8 @@ document.getElementById("map_master_menu").innerHTML +=
                   </td>\
                   <td>\
                     <img src="legend/1171I_plan_boundary_ma.png" width="13" height="13"\
-                      alt="Layer Symbol - MA - Mechanical"/>\
-                    <label class="layer_label" for="checkbox_ma">MA - Mechanical</label>\
+                      alt="Layer Symbol - MA - AWSS SMPs"/>\
+                    <label class="layer_label" for="checkbox_ma">MA - AWSS SMPs</label>\
                   </td>\
                 </tr>\
 \

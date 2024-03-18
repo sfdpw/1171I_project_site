@@ -1,8 +1,10 @@
-/*################# SHEET ENTRY CREATOR ########################################################## */
+// ################# SHEET ENTRY CREATOR ####################################################
 
 function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier, pop_deets) {
 
     var view_table = '<table>';
+    var view_desc = '';
+
 
     if (specifier != '') {
 
@@ -14,6 +16,7 @@ function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier, pop_dee
 
     for (const view_row of pop_deets) {
 
+        view_desc = '';
         view_table += '<tr style="height:18px">';
 
         if (view_row[0] == '') {
@@ -27,16 +30,22 @@ function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier, pop_dee
                 view_row[0], ');\"></td>');
         }
 
+        if (view_row[2] != '') {
+
+            var view_desc = ' - '.concat(view_row[2]);
+
+        }
+
         if (view_row[1] != '') {
 
             view_table += '<td><a href=\".\\sheets\\'.concat(
                 view_row[1], '.pdf\" target=\"_blank\">',
                 view_row[1].replace('1171I_dwg_', '').replace('_rev', ' Rev. '), '<\/a></td>');
-            view_table += '<td>'.concat(view_row[2], '</td>');
+            view_table += '<td>'.concat(view_desc, '</td>');
 
         } else {
 
-            view_table += '<td>'.concat(view_row[2], '</td>');
+            view_table += '<td>'.concat(view_desc, '</td>');
             view_table += '<td></td>';
 
         }
@@ -49,70 +58,9 @@ function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier, pop_dee
     return view_table
 }
 
+// ################# RELEVANT DOC ENTRY CREATOR ###############################################
 
-
-
-
-
-
-
-
-
-
-// function popup_sheet_entry_creator(twin_op, dwg_type, dwg_no, specifier) {
-
-//     var output_string = "";
-//     var overlay_checkbox = "";
-//     var specifier_text = '';
-//     var view_detail = '';
-//     var view_detail = '';
-
-
-//     // for (let nn = 0; nn <= dwg_no[1]; nn++) {
-
-//     for (const nn of dwg_no[1]) {
-
-//         if (specifier != '' && specifier != '0') {
-
-//             overlay_checkbox = 'layer_1171I_dwg_tile_'.concat(dwg_type, "_", dwg_no[0], "_", specifier, "_", num_pad(nn, 3));
-//             specifier_text = ' - '.concat(specifier);
-
-//             view_detail = '<br>'.concat('<b>(View ', specifier.toUpperCase(), ')</b><br>');
-
-
-//         } else {
-
-//             overlay_checkbox = 'layer_1171I_dwg_tile_'.concat(dwg_type, "_", dwg_no[0], "_", num_pad(nn, 3));
-
-//         }
-
-//         output_string += "<input type=\"checkbox\" id=\"".concat(overlay_checkbox, twin_op,
-//             "\" onchange=\"handleChange(this, ", overlay_checkbox, ");\">&nbsp;");
-
-//         if (nn > 0) {
-
-//             output_string += "<a href=\".\\sheets\\1171I_dwg_".concat(dwg_type, "-", dwg_no[0],
-//                 "_rev", num_pad(nn, 2), ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], " Rev. ", nn, "<\/a><br>");
-
-//         } else {
-
-//             output_string += "<a href=\".\\sheets\\1171I_dwg_".concat(dwg_type, "-", dwg_no[0],
-//                 ".pdf\" target=\"_blank\">", dwg_type, " ", dwg_no[0], "<\/a><br>");
-
-//         }
-
-//     }
-
-//     output_string += view_detail;
-
-//     return output_string
-
-// }
-
-
-/*################# RELEVANT DOC ENTRY CREATOR ########################################################## */
-
-function rlvnt_entry_creator(rlvnt_array, striping_plan_array = []) {
+function rlvnt_entry_creator(rlvnt_array) {
 
     var output_string = "";
 
@@ -121,17 +69,10 @@ function rlvnt_entry_creator(rlvnt_array, striping_plan_array = []) {
     //var file_name_length = "";
     //var file_desc = "";
 
-
-    for (const striping_plan of striping_plan_array) {
-
-        output_string += "<a href=\".\\sheets\\1171I_dwg_T_".concat(striping_plan, ".pdf\" target=\"_blank\">".concat("T-", striping_plan).replace("-0", "-"), " - Striping Plan<\/a><br>");
-
-    }
-
     for (const rlvnt_doc of rlvnt_array) {
 
         output_string += "<a href=\".\\sheets\\".concat(rlvnt_doc.file_name, ".pdf\" target=\"_blank\">",
-            rlvnt_doc.file_name.concat(' - ', rlvnt_doc.desc).replace('1171I_dwg_', 'Project Sheet ').replace(/_/g, ' '), "<\/a><br>");
+            rlvnt_doc.file_name.concat(' - ', rlvnt_doc.desc).replace('1171I_dwg_', '').replace(/_/g, ' '), "<\/a><br>");
 
     }
 
@@ -196,13 +137,10 @@ function popup_spec_entry_creator(popup_args = null) {
         var file_name_length = "";
         var file_desc = "";
 
-
         for (var ii = 0; ii < popup_args.length; ii += 2) {
 
             file_name = popup_args[ii].replace(/ /g, '_');
             file_desc = popup_args[ii + 1];
-
-
 
             for (var jj = 0; jj < list_of_specs.length; jj++) {
 
@@ -215,13 +153,9 @@ function popup_spec_entry_creator(popup_args = null) {
                     file_name_length = file_name.length;
                     file_name = list_of_specs[jj].substring(6, list_of_specs[jj].length - 4);
 
-
-
                 }
 
-
             }
-
 
             if (file_desc == null) {
                 //             output_string = output_string.concat("<a href=\".\\specs\\1171I_", file_name, ".pdf\" target=\"_blank\">", file_name.substring(0, file_name_length), "<\/a> - ", file_name.substring(file_name_length+1, file_name.length).replace(/_/g,' '));
@@ -229,15 +163,11 @@ function popup_spec_entry_creator(popup_args = null) {
                 //            output_string = output_string.concat("<a href=\".\\specs\\1171I_", file_name, ".pdf\" target=\"_blank\">", file_name.substring(0, file_name_length).replace(/_/g,' '), "<\/a> - ", file_desc);
             }
 
-
-
             if (ii != popup_args.length) {
                 //            output_string = output_string.concat("<br>");
             }
 
-
         }
-
 
     }
 
@@ -262,7 +192,6 @@ function popup_as_built_entry_creator(feature) {
             compare_string = compare_string.substring(0, compare_string.length - 1)
 
         }
-
 
         if (compare_string == feature.properties.dwg_type.concat('_', feature.properties.dwg_no[0])) {
 
