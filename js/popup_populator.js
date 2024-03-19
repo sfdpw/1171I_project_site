@@ -218,7 +218,7 @@ function popup_tcp_entry_creator(feature) {
     var output_string = '';
 
     var sheet_id = feature.properties.dwg_type.concat(
-        '_', feature.properties.dwg_no
+        '-', feature.properties.dwg_no
     );
 
     if (feature.properties.specifier != '') {

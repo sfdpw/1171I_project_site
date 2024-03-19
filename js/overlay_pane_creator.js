@@ -807,7 +807,7 @@ bounds_group.addLayer(layer_1171I_dwg_tile_R_01_0_000);
 // CR
 
 map.createPane('pane_1171I_dwg_tile_CR_470_000');
-map.getPane('pane_1171I_dwg_tile_CR_470_000').style.zIndex = 0;
+map.getPane('pane_1171I_dwg_tile_CR_470_000').style.zIndex = 2;
 var img_1171I_dwg_tile_CR_470_000 = 'raster_overlay/1171I_dwg_tile_CR_470_000.png';
 var img_bounds_1171I_dwg_tile_CR_470_000 = [
     [37.71245940655302, -122.4324003123253],
@@ -2153,7 +2153,7 @@ bounds_group.addLayer(layer_1171I_dwg_tile_CR_010_000);
 // E
 
 map.createPane('pane_1171I_dwg_tile_E_060_0_000');
-map.getPane('pane_1171I_dwg_tile_E_060_0_000').style.zIndex = 0;
+map.getPane('pane_1171I_dwg_tile_E_060_0_000').style.zIndex = 2;
 var img_1171I_dwg_tile_E_060_0_000 = 'raster_overlay/1171I_dwg_tile_E_060_0_000.png';
 var img_bounds_1171I_dwg_tile_E_060_0_000 = [
     [37.71258128392615, -122.43419768031217],
@@ -2251,7 +2251,7 @@ bounds_group.addLayer(layer_1171I_dwg_tile_E_010_0_000);
 //  map.addLayer(layer_1171I_dwg_tile_E_010_0_000);
 
 map.createPane('pane_1171I_dwg_tile_T_05_0_000');
-map.getPane('pane_1171I_dwg_tile_T_05_0_000').style.zIndex = 0;
+map.getPane('pane_1171I_dwg_tile_T_05_0_000').style.zIndex = 2;
 var img_1171I_dwg_tile_T_05_0_000 = 'raster_overlay/1171I_dwg_tile_T_05_0_000.png';
 var img_bounds_1171I_dwg_tile_T_05_0_000 = [[37.710431259733085, -122.43708311425897], [37.71540909422695, -122.43002015831773]];
 var layer_1171I_dwg_tile_T_05_0_000 = new L.imageOverlay(img_1171I_dwg_tile_T_05_0_000,
@@ -2341,7 +2341,7 @@ bounds_group.addLayer(layer_1171I_dwg_tile_T_01_a_000);
 // map.addLayer(layer_1171I_dwg_tile_T_01_a_000);
 
 map.createPane('pane_1171I_dwg_tile_MISC_04_000');
-map.getPane('pane_1171I_dwg_tile_MISC_04_000').style.zIndex = 0;
+map.getPane('pane_1171I_dwg_tile_MISC_04_000').style.zIndex = 2;
 var img_1171I_dwg_tile_MISC_04_000 = 'raster_overlay/1171I_dwg_tile_MISC_04_000.png';
 var img_bounds_1171I_dwg_tile_MISC_04_000 = [[37.72962540169072,-122.43056372676159],[37.73010768845487,-122.42963479574767]];
 var layer_1171I_dwg_tile_MISC_04_000 = new L.imageOverlay(img_1171I_dwg_tile_MISC_04_000,
