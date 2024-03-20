@@ -538,10 +538,22 @@ var json_1171I_plan_boundaries = {
                 "specifier": 'b',
                 "pop_deets": [
                     ['layer_1171I_dwg_tile_R_07_b_000', '1171I_dwg_R-07', ''],
+                    ['', '1171I_dwg_BR-01.0', 'General Plan'],
+                    ['', '1171I_dwg_BR-01.1', 'Plan BR No. 34-0012'],
+                    ['', '1171I_dwg_BR-01.2', 'Plan BR No. 34-0012Y']
+
+
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": rlvnt_entry_creator(rlvnt_array_r)
+                "rlvnt": rlvnt_entry_creator(
+                    rlvnt_array_r.concat(
+                        [
+                            { 'file_name': '1171I_dwg_BR-02.0', 'desc': 'Joint Seal Details' },
+                            { 'file_name': '1171I_dwg_BR-03.0', 'desc': 'Concrete Repair Details' }
+                        ]
+                    )
+                )
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3788,7 +3800,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3831,7 +3843,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3866,7 +3878,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3909,7 +3921,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3952,7 +3964,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -3995,7 +4007,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4037,7 +4049,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4104,7 +4116,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4156,7 +4168,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4195,7 +4207,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4230,7 +4242,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4265,7 +4277,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4305,7 +4317,7 @@ var json_1171I_plan_boundaries = {
                 "specifier": '',
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4368,7 +4380,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4411,7 +4423,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4454,7 +4466,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4491,7 +4503,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4538,7 +4550,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4589,7 +4601,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4628,7 +4640,7 @@ var json_1171I_plan_boundaries = {
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_u)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4667,13 +4679,13 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '01',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_010_0_000', '1171I_dwg_E-01.0', 'Electric Plan, Pole and Equipment Schedule'],
+                    ['layer_1171I_dwg_tile_E_010_0_000', '1171I_dwg_E-01.0', 'El. Plan, Pole and Eq. Schedule'],
                     ['', '1171I_dwg_E-01.1', 'Conduit and Wiring Schedule']
 
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_e)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4722,12 +4734,12 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '02',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_020_0_000', '1171I_dwg_E-02.0', 'Electric Plan, Pole and Equipment Schedule'],
+                    ['layer_1171I_dwg_tile_E_020_0_000', '1171I_dwg_E-02.0', 'El. Plan, Pole and Eq. Schedule'],
                     ['', '1171I_dwg_E-02.1', 'Conduit and Wiring Schedule']
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_e)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4774,12 +4786,12 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '03',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_030_0_000', '1171I_dwg_E-03.0', 'Electric Plan, Pole and Equipment Schedule'],
+                    ['layer_1171I_dwg_tile_E_030_0_000', '1171I_dwg_E-03.0', 'El. Plan, Pole and Eq. Schedule'],
                     ['', '1171I_dwg_E-03.1', 'Conduit and Wiring Schedule']
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_e)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4828,12 +4840,12 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '04',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_040_0_000', '1171I_dwg_E-04.0', 'Electric Plan, Pole and Equipment Schedule'],
+                    ['layer_1171I_dwg_tile_E_040_0_000', '1171I_dwg_E-04.0', 'El. Plan, Pole and Eq. Schedule'],
                     ['', '1171I_dwg_E-04.1', 'Conduit and Wiring Schedule']
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_e)
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4882,15 +4894,22 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '05',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_050_a_000', '1171I_dwg_E-05.0', 'Electric Plan'],
-                    //['layer_1171I_dwg_tile_E_050_b_000', '', 'South Corner Detail'],
-                    ['', '1171I_dwg_E-05.1', 'Pole and Equipment Schedule'],
+                    ['layer_1171I_dwg_tile_E_050_a_000', '1171I_dwg_E-05.0', 'El. Plan'],
+                    ['', '1171I_dwg_E-05.1', 'Pole and Eq. Schedule'],
                     ['', '1171I_dwg_E-05.2', 'Conduit and Wiring Schedule']
-
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(
+                    rlvnt_array_e.concat(
+                        [
+                            { 'file_name': 'SFPW_STD_87213', 'desc': 'Street Light on (E) Pole' },
+                            { 'file_name': '1171I_dwg_ST-03.01', 'desc': 'Traffic Mast Arm Pole' },
+                            { 'file_name': '1171I_dwg_ST-03.02', 'desc': 'Traffic Mast Arm Pole Details' },
+                            { 'file_name': '1171I_dwg_ST-03.03', 'desc': 'Traffic Mast Arm Pole Sections' }
+                        ]
+                    )
+                )
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -4937,13 +4956,13 @@ var json_1171I_plan_boundaries = {
                 'dwg_no': '06',
                 "specifier": '',
                 "pop_deets": [
-                    ['layer_1171I_dwg_tile_E_060_0_000', '1171I_dwg_E-06.0', 'Electric Plan'],
-                    ['', '1171I_dwg_E-06.1', 'Pole and Equipment Schedule'],
+                    ['layer_1171I_dwg_tile_E_060_0_000', '1171I_dwg_E-06.0', 'El. Plan'],
+                    ['', '1171I_dwg_E-06.1', 'Pole and Eq. Schedule'],
                     ['', '1171I_dwg_E-06.2', 'Conduit and Wiring Schedule']
                 ],
                 'as_built': 'none',
                 "tcp": "none",
-                "rlvnt": "none"
+                "rlvnt": rlvnt_entry_creator(rlvnt_array_e)
             },
             "geometry": {
                 "type": "MultiPolygon",

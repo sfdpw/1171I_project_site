@@ -44,7 +44,7 @@ for (var ii = 0; ii < layer_filter('E', json_1171I_plan_boundaries)['features'].
 }
 
 for (var ii = 0; ii < layer_filter('MA', json_1171I_plan_boundaries)['features'].length; ii++) {
-  overlay_menu_subsection_content_e += popup_sheet_entry_creator('_twin_menu',
+  overlay_menu_subsection_content_ma += popup_sheet_entry_creator('_twin_menu',
     layer_filter('MA', json_1171I_plan_boundaries)['features'][ii].properties.dwg_type,
     layer_filter('MA', json_1171I_plan_boundaries)['features'][ii].properties.dwg_no,
     layer_filter('MA', json_1171I_plan_boundaries)['features'][ii].properties.specifier,

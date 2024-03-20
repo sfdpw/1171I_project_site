@@ -5,8 +5,6 @@ html {
 
 }
 
-
-
 .map {
     float: left;
     width: 100%;
@@ -19,7 +17,7 @@ html {
 
 .card-body{
 
-   max-height:280pt;
+   max-height:700pt;
    overflow-y: auto;
        
    }
@@ -27,7 +25,7 @@ html {
 
 .scroll_card {
     overflow-y: scroll;
-    max-height: 280pt;
+    max-height: 600pt;
 
 }
 
@@ -41,7 +39,7 @@ html {
 
 .scroll_card_sub {
     overflow-y: scroll;
-    max-height: 150pt;
+    max-height: 250pt;
     font-size: 12px;
 
 }
@@ -66,17 +64,12 @@ button:active {
     font-size: 12px;
 }
 
-
 tr {
 
     line-height: 10px;
     vertical-align: top;
 
 }
-}
-}
-
-
 
 input[type=checkbox] {
     transform: scale(1.0);
