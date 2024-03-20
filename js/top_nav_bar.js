@@ -230,18 +230,6 @@ function top_nav(nav_element, pp_no = null, bid_item_id = null) {
 			  <li>\
 			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-25.html"><b>PCO-02 - SW-25:</b> Addition - Post-Con TVI of (N) Mains</a>\
 			  </li>\
-			  <li>\
-			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-27.html"><b>PCO-02 - SW-27:</b> Addition - Post-Con TVI of (N) Side Sewers and Culverts</a>\
-			  </li>\
-			  <li>\
-			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-36.html"><b>PCO-02 - SW-36:</b> Addition - Allowance to Perform Misc. Work</a>\
-			  </li>\
-			  <li>\
-			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-38.html"><b>PCO-02 - SW-38:</b> Addition - 18in VCP Main</a>\
-			  </li>\
-			  <li>\
-			    <a class="dropdown-item" href="' + nav_path + 'qty/qty_tracking_PCO-02_SW-39.html"><b>PCO-02 - SW-39:</b> Addition - Abandon (E) MH</a>\
-			  </li>\
 			</ul>\
 	      </li>\
 	    </ul>\
