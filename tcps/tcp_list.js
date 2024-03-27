@@ -550,5 +550,10 @@ var project_tcp_array =
          'numb': "189.02",
          'desc': "Mission at Onondaga and at Italy",
          'rlvn': ['CR-05', 'CR-09', 'CR-10']
+      },
+      {
+         'numb': "190.00",
+         'desc': "Mission between Onondaga and Russia",
+         'rlvn': ['R-03_a', 'R-03_b']
       }
    ]
