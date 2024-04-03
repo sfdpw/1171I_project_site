@@ -12,7 +12,7 @@ document.getElementById("map_master_menu").innerHTML +=
               </button>\
             </h2>\
           </div>\
-          <div id="collapse_sheet" class="collapse"\
+          <div id="collapse_sheet" class="collapse show"\
                aria-labelledby="heading_sheet_layers" data-parent="#map_master_menu">\
             <div class="card-body">\
               <table>\
